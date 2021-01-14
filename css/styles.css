@@ -1,0 +1,2514 @@
+@font-face{
+
+	font-family: gothic;
+	src: url(../font/Century.ttf);
+}
+
+body, section{
+    font-family:gothic;
+    overflow-x: hidden !important;
+}
+
+nav .nav-ink{
+	/*font-family: Century Gothic;*/
+	font-weight: 700;
+	color: #1D4385 !important;
+}
+
+
+.navbar-collapse.collapse.show ul li.nav-item{
+	height: 15vh;
+}
+
+.divFrases{
+    margin-bottom: 30px;
+    height: 40vh;
+}
+
+.fondo-nosotros{
+	font-weight: 100!important; 
+	color:#EAE9E9;
+	letter-spacing: 25px;
+	position: absolute;
+    top: 50;
+    font-size: 10vw;
+    
+}
+span.back-blue{
+	font-weight: 600; 
+	color: rgba(50,87,147, 0.6);
+	z-index:1009;
+	position: absolute;
+	top: 50;
+    letter-spacing: 8px;
+    font-size: 10vw;
+}
+
+.titulo-4p{
+	
+	font-size: 2.8em;
+}
+
+.titulo2-4p{
+	font-size: 2em;
+	font-weight: 900;
+    color: rgba(50,87,147, 0.6);
+}
+
+/*--------------------------------CSS Modal IRL-----------------------------*/
+.irl-page{
+   
+    width: 50vw;
+    height: 85vh;
+    background-image:url(../images/sections/irlimg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.titulo3-irl{
+	font-size: 2.3em;
+	font-weight: 800;
+	color: #00a5e3;
+}
+
+.texto3-irl{
+    
+	font-size: 2.0em;
+	color: #00a5e3;
+}
+
+.btn-irl{
+	background-color: transparent;
+	border: 1px solid #00a5e3;
+	border-radius: 0px;
+}
+
+a.btn-irl, a.btn-irl:hover{
+	text-decoration: none;
+	color: #00a5e3; /* blue colors for links too */
+  	text-decoration: inherit; /* no underline */
+}
+
+/*--------------------------------FIN CSS Modal IRL-----------------------------*/
+
+
+
+/*--------------------------------CSS Modal Integra-----------------------------*/
+.integra-page{
+   
+    width: 50vw;
+    height: 85vh;
+    background-image:url(../images/sections/integraimg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.titulo3-integra{
+	font-size: 2.3em;
+	font-weight: 800;
+	color: #08556d;
+}
+
+.texto3-integra{
+    
+	font-size: 2.0em;
+	color: #08556d;
+}
+
+.btn-integra{
+	background-color: transparent;
+	border: 1px solid #08556d;
+	border-radius: 0px;
+}
+
+a.btn-integra, a.btn-integra:hover{
+	text-decoration: none;
+	color: #08556d; /* blue colors for links too */
+  	text-decoration: inherit; /* no underline */
+}
+
+/*--------------------------------FIN CSS Modal Integra-----------------------------*/
+
+/*--------------------------------CSS Modal SS-----------------------------*/
+.ss-page{
+   
+    width: 50vw;
+    height: 85vh;
+    background-image:url(../images/sections/ssimg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.titulo3-ss{
+	font-size: 2.3em;
+	font-weight: 800;
+	color: #cc0001;
+}
+
+.texto3-ss{
+    
+	font-size: 2.0em;
+	color: #cc0001;
+}
+
+.btn-ss{
+	background-color: transparent;
+	border: 1px solid #cc0001;
+	border-radius: 0px;
+}
+
+a.btn-ss, a.btn-ss:hover{
+	text-decoration: none;
+	color: #cc0001; /* blue colors for links too */
+  	text-decoration: inherit; /* no underline */
+}
+
+/*--------------------------------FIN CSS Modal SS-----------------------------*/
+
+
+/*--------------------------------CSS Modal SS-----------------------------*/
+.blu-page{
+   
+    width: 50vw;
+    height: 85vh;
+    background-image:url(../images/sections/ssimg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.titulo3-blu{
+	font-size: 2.3em;
+	font-weight: 800;
+	color: #1e2454;
+}
+
+.texto3-blu{
+    
+	font-size: 2.0em;
+	color: #1e2454;
+}
+
+.btn-blu{
+	background-color: transparent;
+	border: 1px solid #1e2454;
+	border-radius: 0px;
+}
+
+a.btn-blu, a.btn-blu:hover{
+	text-decoration: none;
+	color: #1e2454; /* blue colors for links too */
+  	text-decoration: inherit; /* no underline */
+}
+
+/*--------------------------------FIN CSS Modal SS-----------------------------*/
+
+
+
+.titulo-Foraneas{
+	font-size: 1em;
+	font-weight: 800;
+    color: rgba(50,87,147, 0.6);
+}
+
+.comillas-4p{
+	font-size: 4em;
+	font-weight: 900;
+	color: #1D4385 !important;
+}
+
+.texto-over{
+	color: white;
+	font-size: 1.7em;
+	font-weight: 600;
+}
+
+
+.texto-4p{
+	font-size: 1.6em;
+	color: #1D4385 !important;
+}
+
+.texto2-4p{
+	font-size: 1.6em;
+	color: rgba(50,87,147, 0.6);
+}
+
+.texto-mapas{
+    font-size: 1.4em;
+    color: rgba(50,87,147, 0.6);
+    
+}
+
+.texto-Foraneas{
+	font-size: 1.0em;
+	color: rgba(50,87,147, 0.6);
+}
+
+
+
+.home-image{
+	background-image:url(../images/sections/home.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top; 
+    background-size: cover;
+}
+
+.home-meta{
+	background-image:url(../images/sections/nosotros.jpg);
+	background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: center top; 
+    background-size: cover;
+}
+.gray-page{
+	background-color: #F4F4F4;
+}
+.blue-page{
+	background-color: #1c4387; 
+}
+
+.contacto-page{
+	background-image:url(../images/sections/contacto.jpg);
+	background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: center top; 
+    background-size: cover;
+}
+.formulario-page{
+	background-image:url(../images/sections/contacto.jpg);
+	background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: center top; 
+    background-size: cover;
+}
+.form-pmx{
+	border-radius: 9px;
+	background-color: #B3B3B4;
+}
+.btn-4p{
+	width: auto;
+	background-color: #1C4386;
+	color: white;
+	border-radius: 7px;
+}
+.close {
+    float: right;
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1;
+    color: white;
+    opacity: .5;
+}
+.close:hover{
+	float: right;
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1;
+    color: white;
+    opacity: .5;
+}
+.closeIntegra {
+    float: right;
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1;
+    color: white;
+    opacity: .5;
+}
+
+.closeIntegra:hover{
+	float: right;
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1;
+    color: white;
+    opacity: .5;
+}
+
+.closeSS {
+    float: right;
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1;
+    color: white;
+    opacity: .5;
+}
+
+.closeSS:hover{
+	float: right;
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1;
+    color: white;
+    opacity: .5;
+}
+
+
+.closeBlu {
+    float: right;
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1;
+    color: white;
+    opacity: .5;
+}
+
+.closeBlu:hover{
+	float: right;
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1;
+    color: white;
+    opacity: .5;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  .ui-toolip {
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    font: bold 14px "Helvetica Neue", Sans-Serif;
+    text-transform: uppercase;
+    box-shadow: 0 0 7px black;
+  }
+
+.irl{
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    font: bold 14px "Helvetica Neue", Sans-Serif;
+    text-transform: uppercase;
+    box-shadow: 0 0 7px black;
+}
+
+hr.style-line {
+	border: 0;
+	height: 4px;
+	background: #C3C3C4;
+	width: 55%;
+	position: absolute;
+}
+
+.historia{
+	transition: 0.3s ease;
+	cursor: pointer;
+}
+
+.historia:hover{
+	transform: scale(1.4, 1.4);
+	font-weight: 800;
+}
+
+
+
+.contenedor time{
+    color:#a8aaad;
+}
+.contenedor p{
+    color:#a8aaad;
+}
+
+.empresas{
+	cursor: pointer;
+}
+
+.marcadorCorpo{
+width: 25px;
+height: 30px;
+margin-top: -195px;
+margin-left: -290px;
+left: 50%;
+top: 50%;
+position: absolute;
+}
+
+#footer .privacidad{
+	color:#1C4386;
+	font-weight: 400;
+	font-style: 1em;
+	text-decoration: none;
+}
+
+
+
+
+/* ULTRA small devices (portrait phones, less than 576px)*/
+@media (max-width: 350px){
+
+    .arrow{
+        margin-top: 40vw;
+    }
+    
+    .empresas-page{
+        padding-top: 50px;
+        /*background-size: 100% 100%;*/
+        width: 30%;
+        height: 110%;
+    }
+    
+    .letrasModales{
+        font-size: 6px;
+        margin-top: -25px;
+    }
+    .letrasModales img{
+        margin-top: -40px;
+        width: 30px;
+    }
+    .logoModales{
+        margin-right:  90px;
+        width: 90px;
+    }
+    
+    .logoModaless{
+        margin-right:  50px;
+        width: 100px;
+    }
+    
+    .irAlSitio{
+        margin-top: -30px;
+        margin-right: 45px;
+        font-size: 12px;
+        
+    }
+    
+    .modal{
+        height: 100%;
+         width: 100%;
+         overflow: scroll;
+         position: fixed;
+         display: none;
+         
+     }
+        .homepage {
+            height: 100vh;
+            width: 100%;
+            font-size: 10px;
+            padding-bottom: 30px;
+        }
+        .homepage span{
+            margin-top: 100px;
+            height: auto;
+            width: auto;
+            padding-bottom: 30px;
+    
+        }
+        .empresas{
+            height: auto;
+            width: auto;
+            clear: both;
+            font-size: 13px;
+            padding-bottom: 30px;
+        }
+        .meta4p{
+            height: auto;
+            width: auto;
+            clear: both;
+            font-size: 13px;
+            padding-bottom: 30px;
+    
+        }
+        .greatplace{
+            margin-top: 30px;
+            height: auto;
+            width: auto;
+            clear: both;
+            font-size: 12px;
+            margin-bottom: 30px;
+            
+        }
+        .greatplace .frases{
+            height: 450px;
+        }
+    
+         .carruselGptw .gptwUno {
+            width: 600;
+            height: 300px;
+        }
+    
+        .carruselGptw .gptwDos {
+            width: 600;
+            height: 300px;
+        }
+    
+        .carruselGptw .gptwTres {
+            width: 600;
+            height: 300px;
+        }
+        .carruselGptw .gptwCuatro {
+            width: 600;
+            height: 300px;
+        }
+    
+         .imgCorpo{
+            width: auto;
+            height: auto;
+        }
+        .imgNorte{
+            width: auto;
+            height: 250px;
+        }
+       .imgPeninsula{
+            width: auto;
+            height: 250px;
+        }
+        .formulario{
+            padding-bottom: 30px
+        }
+        .contacto{
+            height: auto;
+            padding-bottom: 30px;
+        }
+        .contacto .mapaFrame{
+            height: auto;
+            width: auto;
+        }
+        .mapa{
+            height: 250px;
+            width: 250px;
+        }
+    
+        .marcadorPeninsula{
+           margin-bottom:  -100px;
+           width: 10;
+        }
+        .marcaNorte{
+            margin-bottom: -115px;
+            width: 5;
+        }
+        .img4p{
+            margin-top: 10px;
+            margin-left: 115px;
+            
+        }
+        .imgFac{
+            margin-top: 50px;
+            margin-left: 190px; 
+            width: 40px;
+        }
+        .imgGptw{
+            margin-top: 50px;
+            margin-left: 190px;
+            width: 40px;
+        }
+        .avisoPrivacidad{
+            margin-top: -100px;
+            margin-left: 80px; 
+        }
+        .imgFace{
+             margin-top: -70px;
+             margin-left: 50px;
+        }
+        .imgLinked{
+            margin-top: -70px;
+            margin-left: 10px;
+        }
+        .myFooter div{
+            margin-bottom: 5px;
+        }
+        .myFooter div a{
+            height: 13vh;
+            width: 50px;
+            transform: translateX(10%);
+            margin-bottom: 10px;       
+        }
+        .myFooter div a  {
+            margin-left: -10px;
+        }
+        .myFooter  div .cent{
+            width: auto;
+            margin-left: -8px;
+        }
+        .myFooter div .der{
+            width: auto;
+            margin-left: 10px;
+        }
+        span.back-nosotros, span.back-blue{
+            font-size:1.5em; 
+        }
+
+        .comentarios{
+            font-size: 8px;
+            
+        }
+
+        .tool{
+            padding-bottom: 25px;
+            padding-top: 25px;
+        }
+
+        .irlLogo{
+            width: 20vh;
+        }  
+        
+        .integraLogo{
+            width: 20vh;
+        } 
+        
+        .ssLogo{
+            width: 20vh;
+            
+        }  
+    
+        .bluLogo{
+            width: 20vh;
+           
+        }  
+
+        .cuerpoModal{
+            width: 95%;
+        }
+
+       
+
+       
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (min-width:351px) and (max-width: 575.98px) { 
+
+    
+
+    .arrow{
+        margin-top: 45vw;
+    }
+
+.empresas-page{
+    padding-top: 50px;
+	width: 30%;
+    height: 110%;
+}
+
+.letrasModales{
+    font-size: 7px;
+    margin-top: -25px;
+}
+.letrasModales img{
+    margin-top: -40px;
+    width: 28px;
+}
+.logoModales{
+    margin-right:  90px;
+    width: 90px;
+}
+
+.logoModaless{
+    margin-right:  50px;
+    width: 100px;
+}
+.irAlSitio{
+    margin-top: -30px;
+    margin-right: 45px;
+    font-size: 12px;
+}
+.modal{
+    height: 100%;
+     width: 100%;
+     overflow: scroll;
+     position: fixed;
+     display: none;
+ }
+
+.homepage{
+        height: 100vh;
+        width: 100%;
+        font-size: 10px;
+        padding-bottom: 30px;
+}
+
+.homepage span{
+        margin-top: 100px;
+        height: auto;
+        width: auto;
+        padding-bottom: 30px;
+}
+
+.empresas{
+        height: auto;
+        width: auto;
+        clear: both;
+        font-size: 13px;
+        padding-bottom: 30px;
+}
+
+.meta4p{
+        height: auto;
+        width: auto;
+        clear: both;
+        font-size: 13px;
+        padding-bottom: 30px;
+}
+
+.greatplace{
+        margin-top: 30px;
+        height: auto;
+        width: auto;
+        clear: both;
+        font-size: 12px;
+        margin-bottom: 30px;
+}
+
+    .greatplace .frases{
+        height: 450px;
+    }
+
+     .carruselGptw .gptwUno {
+        width: 600;
+        height: 300px;
+    }
+
+    .carruselGptw .gptwDos {
+        width: 600;
+        height: 300px;
+    }
+
+    .carruselGptw .gptwTres {
+        width: 600;
+        height: 300px;
+    }
+    .carruselGptw .gptwCuatro {
+        width: 600;
+        height: 300px;
+    }
+
+     .imgCorpo{
+        width: auto;
+        height: auto;
+    }
+    .imgNorte{
+        width: auto;
+        height: 250px;
+    }
+   .imgPeninsula{
+        width: auto;
+        height: 250px;
+    }
+    .formulario{
+        padding-bottom: 30px
+    }
+    .contacto{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .mapaFrame{
+        height: auto;
+        width: auto;
+    }
+    .mapa{
+        height: 250px;
+        width: 250px;
+    }
+
+    .marcadorPeninsula{
+       margin-bottom:  -100px;
+       width: 10;
+    }
+    .marcaNorte{
+        margin-bottom: -115px;
+        width: 5;
+    }
+    .comentarios{
+        font-size: 9px;
+    }
+
+	.tool{
+		padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    .irlLogo{
+        width: 20vh;
+    }   
+
+    .integraLogo{
+        width: 20vh;
+    }   
+
+    .ssLogo{
+        width: 20vh;
+        
+    }  
+
+    .bluLogo{
+        width: 20vh;
+        
+    }  
+
+    .cuerpoModal{
+        width: 95%;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .arrow{
+        margin-top: 45vw;
+    }
+    
+    .homepage{
+        height:  100vmin;
+    }
+    .empresas-page{
+	height: 160%;
+    }
+
+    .greatplace{
+        margin-top: 30px;
+        height: auto;
+        width: auto;
+        clear: both;
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+
+    .empresas{
+        height: auto;
+        width: auto;
+        font-size: 13px;
+        padding-bottom: 30px;
+    }
+
+    .contacto{
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .formulario{
+        height: 200vh;
+    }
+    
+    .mapa{
+        height: 250px;
+        width: 250px;
+    }
+
+    .timeline{
+        height: 300vh;
+    }
+
+    .imgNorte{
+        height: 245px;;
+    }
+
+    .imgPeninsula{
+        height: 245px;;
+    }
+    .titulo-4p{
+		font-size: 2em;
+		padding-left: 7%;
+		padding-right: 7%;
+	}
+
+	.navbar-collapse.collapse.show{
+		height: 100vh;
+		text-align: center;
+	}
+
+	
+    .comentarios{
+        font-size: 11px;
+    }
+
+    .irlLogo{
+        width: 25vh;
+    }  
+
+    .integraLogo{
+        width: 30vh;
+    }  
+
+    .ssLogo{
+        width: 25vh;
+    }  
+
+    .bluLogo{
+        width: 25vh;
+    }  
+    
+    .letrasModales{
+        font-size: 8px;
+        margin-top: -25px;
+    }
+    .letrasModales img{
+        margin-top: -25px;
+        width: 45px;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 1023.98px) { 
+
+    .arrow{
+        margin-top: 50vw;
+    }
+    
+    .empresas-page{
+	height: 85%;
+    }
+
+    .homepage {
+        height: 100vh;
+        width: 100%;
+        font-size: 13px;
+        padding-bottom: 30px;
+    }
+    .empresas{
+        height: auto;
+        width: auto;
+        font-size: 13px;
+        padding-bottom: 30px;
+    }
+    .meta4p{
+        height: 100vh;
+        width: auto;
+        clear: both;
+        padding-bottom: 30px;
+    }
+    
+    .mapa{
+        height: 450px;
+        width: 450px;
+    }
+
+    
+    .contacto{
+        height: 250vh;
+        padding-bottom: 30px;
+    }
+    .contacto .mapaFrame{
+        height: 800px;
+        width: 500px;
+    }
+    
+    .contacto .mapadelnorte{
+       
+        height: 250px;
+        width: 300px;
+        margin-left: 30px;
+    }
+    .contacto .mapadepeninsula{
+        height: 250px;  
+        width: 300px;
+        margin-left: 20px;
+    }
+    .contacto .textoPeninsula{
+        margin-top: 90px;
+    }
+	.titulo-4p{
+		font-size: 2.3em;
+	}
+	.navbar-collapse.collapse.show{
+		height: 100vh;
+		text-align: center;
+    }
+    .greatplace{
+        margin-top: 30px;
+        height: 315vh;
+        width: auto;
+        clear: both;
+        font-size: 19px;
+        margin-bottom: 30px;
+    }
+
+    .marcaNorte{
+        margin-top: -30px;
+    }
+
+    .marcadorPeninsula{
+        margin-top: -80px;
+    }
+    .formulario{
+        height: 100vh;
+    }
+
+    .imgNorte{
+        height: 256px;;
+    }
+    .imgPeninsula{
+        height: 256px;;
+    }
+
+    .ubicaciones span{
+        font-size: 15px;
+    }
+    
+
+    .comentarios{
+        font-size: 12px;
+    }
+    .irlLogo{
+        width: 30vh;
+    }   
+
+    .integraLogo{
+        width: 35vh;
+    }  
+    
+    .ssLogo{
+        width: 30vh;
+    }  
+
+    .bluLogo{
+        width: 30vh;
+    }  
+
+    .letrasModales{
+        font-size: 8px;
+        margin-top: -25px;
+    }
+    .letrasModales img{
+        margin-top: -25px;
+        width: 45px;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 1024px) and (max-width: 1381px) { 
+
+    .arrow{
+        margin-top: 37vw;
+    }
+    
+    .empresas-page{
+	height: 85%;
+    }   
+
+    .close {
+        float: right;
+        align-content: unset;
+        font-size: 3rem;
+        font-weight: 100;
+        line-height: 1;
+        color: white;
+        opacity: .5;
+        margin-bottom: 50px;
+        margin-left: -570px;
+    }
+    .close:hover{
+        float: right;
+        font-size: 3rem;
+        font-weight: 100;
+        line-height: 1;
+        color: white;
+        opacity: .5;
+    }
+    .comillas-4p{
+        font-size: 55px;
+        font-weight: 900;
+        color: #1D4385 !important;
+    }
+
+    .homepage{
+        height: 100vh;
+        width: 100%;        
+        padding-bottom: 30px;
+    }
+    
+    .empresas{
+        height: 100vh;
+        width: auto;
+        clear: both;
+        padding-bottom: 30px;
+        font-size: 15px;
+    }
+    
+    .subicono img{
+        width: 70px;
+        margin-top: -50px;
+    }
+    .meta4p{
+        height: 100vh;
+        width: auto;
+        clear: both;
+        padding-bottom: 30px;
+    }
+
+    
+
+    .greatplace{
+        height: auto;
+        clear: both;
+        font-size: 12px;
+        
+    }
+    .gptwPrueba{
+        height: auto;
+        padding-bottom: 30px;
+        
+    }
+    
+    .mapa{
+        margin-top: 60px;
+        height: 400px;
+        width: 400px;
+    }
+    
+    .linkCorporativo{
+        margin-left: 80px;
+    }
+    
+    .linkPeninsula{
+        margin-right: 110px; 
+    }
+
+    .gptwUno {
+        height: 547px;
+    }
+
+    .gptwDos {
+        height: 547px;
+    }
+
+    .gptwTres {
+        height: 547px;
+    }
+
+    .gptwCuatro {
+        height: 547px;
+    }
+    .greatplace .foraneas{
+        margin-top: 2px;
+    }
+    .ubicaciones .spanPeninsula{
+        font-size: 20px;
+    }
+    .imgCorpo{
+        width: 400px;
+        height: 380px;
+    }
+    .spanNorte{
+        margin-top: -40px;
+        font-size: 20px;
+    }
+    .marcaNorte{
+        margin-top: 9px;
+        padding-top: 1px;
+    }
+    .imgNorte{
+        
+        width: auto;
+        height: 167px;
+    }
+
+    .imgPeninsula{
+        width: auto;
+        height: 167px;
+    }
+    
+    .carousel-slide{
+        height: 23vh;
+    }
+    .formulario{
+        height: 120vh;
+        width: auto;
+        padding-bottom: 30px;
+    }
+    .fcontacto{
+        width: 900px;;
+        height: auto;
+    }
+    .contacto{
+        height: 100vh;
+        padding-bottom: 30px;
+    }
+     .mapaFrame{
+        height: 500px;
+        width: 400px;
+    }
+    .contacto .mapadelnorte{
+        margin-top: 30px;
+        height: 200px;
+        width: 250px;
+        margin-left: 10px;
+        margin-right: 315px;
+        margin-bottom: 60px;
+    }
+    .contacto .mapadepeninsula{
+        height: 200px;  
+        width: 250px;
+        margin-left: 30px;
+        margin-right: 115px;
+    }
+
+    .contacto .textoNorte{
+        margin-top: 40px;
+    }
+
+    .contacto .textoPeninsula{
+        margin-top: 20px;
+    }
+    .marcadorPeninsula{
+        margin-bottom: -30px;
+    }
+
+   
+    .comentarios{
+
+        font-size: 13px;
+    }
+
+    .irlLogo{
+        width: 35vh;
+        margin-bottom: 130px;
+    }
+    
+    .integraLogo{
+        width: 45vh;
+        margin-bottom: 130px;
+    }  
+    
+    .ssLogo{
+        width: 35vh;
+        margin-bottom: 115px;
+    }  
+
+    .bluLogo{
+        width: 35vh;
+        margin-bottom: 130px;
+    }  
+
+    .letrasModales{
+        font-size: 10px;
+        margin-top: -75px;
+    }
+    .letrasModales img{
+        margin-top: -25px;
+        width: 45px;
+    }
+
+    
+    
+}
+
+
+
+@media only screen and (min-width:300px) and (max-width:500px) and (orientation: landscape){
+    
+    
+    .empresas-page{
+        height: 85%;
+    }
+
+    .greatplace{
+        height: 255vh;
+    }
+    
+    .formulario{
+        height: auto;        
+    }
+    
+    .homepage{
+        height: 100vh;
+    }
+    
+    .marcadorPeninsula{
+       margin-bottom:  -60px;
+    }
+    .marcaNorte{
+       margin-bottom:  -60px;
+    }
+
+    .contacto{
+        height: auto;    
+    }
+
+    
+    
+    
+}
+
+@media only screen and (min-width:501px) and (max-width:600px) and (orientation: landscape){
+    
+    
+    .empresas-page{
+        height: 85%;
+    }
+
+    .greatplace{
+        height: 225vh;
+    }
+    
+    .formulario{
+        height: auto;        
+    }
+    
+    .homepage{
+        height: 100vh;
+    }
+    
+    .marcadorPeninsula{
+       margin-bottom:  -60px;
+    }
+    .marcaNorte{
+       margin-bottom:  -60px;
+    }
+    .contacto{
+        height: auto;    
+    }
+
+    
+    
+    
+}
+
+@media only screen and (min-width:601px) and (max-width:700px) and (orientation: landscape){
+    
+    
+    .empresas-page{
+        height: 85%;
+    }
+
+    .greatplace{
+        height: 255vh;
+    }
+    
+    .formulario{
+        height: auto;        
+    }
+    
+    .homepage{
+        height: 100vh;
+    }
+    
+    .marcadorPeninsula{
+       margin-bottom:  -60px;
+    }
+    .marcaNorte{
+       margin-bottom:  -60px;
+    }
+    
+    
+    
+}
+
+@media only screen and (min-width:701px) and (max-width:750px) and (orientation: landscape){
+    
+    
+    .empresas-page{
+        height: 85%;
+    }
+
+    .greatplace{
+        height: 255vh;
+    }
+    
+    .formulario{
+        height: auto;        
+    }
+    
+    .homepage{
+        height: 100vh;
+    }
+    
+    .marcadorPeninsula{
+       margin-bottom:  -60px;
+    }
+    .marcaNorte{
+       margin-bottom:  -60px;
+    }
+    
+    
+    
+}
+
+@media only screen and (min-width:751px) and (max-width:800px) and (orientation: landscape){
+    
+    
+    .empresas-page{
+        height: 85%;
+    }
+
+    .greatplace{
+        height: 285vh;
+        
+    }
+    
+    .formulario{
+        height: auto;        
+    }
+    
+    .homepage{
+        height: 100vh;
+    }
+    
+    .marcadorPeninsula{
+       margin-bottom:  -60px;
+    }
+    .marcaNorte{
+       margin-bottom:  -60px;
+    }
+    
+    
+    
+}
+
+@media only screen and (min-width:801px) and (max-width:991px) and (orientation: landscape){
+    
+    
+    .empresas-page{
+        height: 85%;
+    }
+
+    .greatplace{
+        height: 290vh;
+        font-size: 12px;
+    }
+    
+    .formulario{
+        height: auto;        
+    }
+    
+    .homepage{
+        height: 100vh;
+    }
+    
+    .marcadorPeninsula{
+       margin-bottom:  -60px;
+    }
+    .marcaNorte{
+       margin-bottom:  -60px;
+    }
+
+    .comentarios{
+        font-size: 10px;
+    }
+    
+    
+    
+}
+@media only screen and (min-width:992px) and (max-width:1024px) and (orientation: landscape){
+    
+    .empresas-page{
+	
+    height: 85%;
+    }
+    
+    .homepage{
+        height: 100vh;
+    }
+
+
+    .empresas{
+        height: auto;
+        width: auto;
+        clear: both;
+        padding-bottom: 30px;
+        font-size: 15px;
+    }
+     .mapa{
+        height: 250px;
+        width: 400px;
+    }
+    .greatplace{
+        height: 307vh;
+        width: auto;
+        clear: both;
+        font-size: 12px;
+        padding-bottom: 30px;
+    }
+    .marcadorPeninsula{
+       margin-bottom:  -30px;
+    }
+
+    .formulario{
+        height: 100vh;
+    }
+
+    .contacto{
+        height: 100vh;
+    }
+    .contacto .back-nosotros{
+        font-size: 130px;
+    }
+    
+    .frases{
+        margin-top: 0px; 
+        font-size: 12px;
+        margin-bottom: 32px;       
+    }
+    .greatplace .back-nosotros{
+        font-size: 130px;
+    }
+
+    .empresas .back-nosotros{
+        font-size: 130px;
+    }
+    
+    .spanNorte{
+        margin-top: -43px;
+    }
+    
+    .marcaNorte{
+        padding-top: 9px;
+    }
+    
+    
+    .imgNorte{
+        
+        width: auto;
+        height: 290px;
+    }
+
+    .imgPeninsula{
+        
+        width: auto;
+        height: 290px;
+    }
+    
+    .carouselExampleSlidesOnly{
+        height: 200vh;
+    }
+    .imgFac{
+        margin-left: 20px; margin-top: 20px;
+    }
+    
+    .imgGptw{
+        margin-left: 30px;margin-top: 20px;
+    }
+    
+    .avisoPrivacidad{
+        margin-left: 60px; margin-top: 35px;
+    }
+    
+    .imgFace{
+        margin-top: 30px; margin-left: 100px;
+    }
+    
+    .imgLinked{
+        margin-top: 30px;
+    }
+
+}
+
+@media only screen and (min-width:1025px) and (max-width:1300px) and (orientation: landscape){
+
+    .frases{
+       
+        margin-top: 105px;
+        font-size: 10px;
+        margin-bottom: 32px;       
+    }
+
+    .greatplace{
+        height: 215vh;
+        width: auto;
+        padding-bottom: 30px;
+    }
+
+    .empresas{
+        height: auto;
+        width: auto;
+        clear: both;
+        padding-bottom: 30px;
+        font-size: 15px;
+    }
+
+    .letrasModales {
+        margin-top: -165px;
+        width: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 1400px) , screen and (max-height: 800px)  {
+    
+    .contacto{
+        height: auto;    
+    }
+
+    .mapaFrame{
+        height: auto;
+        width: auto;
+    }
+    
+}
+
+/*Extra Large devices (desktops, 992px and up)*/
+@media (min-width: 1382px) and (max-width: 8300px) {
+
+    .arrow{
+        margin-top: 40vw;
+    }
+
+    .texto2-4p{
+        font-size: 1.6em;
+    }
+    
+    .empresas-page{
+	
+    height: 85%;
+    }
+
+    .comillas-4p{
+        font-size: 55px;
+        font-weight: 900;
+        color: #1D4385 !important;
+    }
+	
+    .homepage{
+        height: 100vh;
+        width: 100%; 
+        padding-bottom: 30px;
+        }
+    .empresas{
+        height: 100vh;
+        width: auto;
+        clear: both;
+        padding-bottom: 30px;
+    }
+    .meta4p{
+        height: 100vh;
+        width: auto;
+        padding-bottom: 30px;
+    }
+
+    .greatplace{
+        height: 99vh;
+    }
+
+    .greatplace .frases{
+        margin-top: 105px;
+    }
+    .greatplace .imagenesgptw{
+        margin-top: -55px;
+    }
+    .greatplace .gptwPrueba{
+        padding-bottom: 10px;
+    }
+    .carruselGptw .gptwUno {
+        width: 600;
+        height: 682px;
+    }
+
+    .carruselGptw .gptwDos {
+        width: 600;
+        height: 682px;
+    }
+
+    .carruselGptw .gptwTres {
+        width: 600;
+        height: 682px;
+    }
+    .carruselGptw .gptwCuatro {
+        width: 600;
+        height: 682px;
+    }
+    
+    .linkCorporativo{
+        margin-left: 210px;
+    }
+    
+    .linkPeninsula{
+        margin-right: 210px; 
+    }
+    
+    .spanPeninsula{
+        margin-top: -80px;
+        font-size: 20px;
+    }
+    .imgCorpo{
+        width: 500px;
+        height: 450px;
+    }
+    .imgNorte{
+        
+        width: 250px;
+        height: 232px;
+       
+    }
+    .spanNorte{
+        margin-left: 20px;
+        margin-top: -160px;
+        font-size: 20px;
+    }
+    .imgPeninsula{
+        width: 250px;
+        height: 232px;
+    }
+    .greatplace span{
+        font-size: 25px;
+        width: 100%;
+    }
+    .greatplace .back-nosotros{
+        font-size: 110px;
+    }
+    .marcaNorte{
+        padding-top: -35px;
+        margin-top: 30px;
+    }
+    
+   
+    .carousel-slide{
+        height: 23vh;
+    }
+    .formulario{
+        
+        height: 100vh;
+        padding-bottom: 30px;
+    }
+
+    .fcontacto{
+        width: 750px;
+        height: 650px;
+    }
+    .contacto{
+        height: 100vh;
+        padding-bottom: 30px;
+    }
+    
+    .mapa{
+        margin-top: 60px;
+        height: 600px;
+        width: 600px;
+    }
+
+    .contacto .mapadelnorte{
+        margin-top: -30px;
+        height: 300px;
+        width: 400px;
+        margin-left: -100px;
+        margin-right: 315px;
+        margin-bottom: 60px;
+    }
+    .contacto .mapadepeninsula{
+        height: 300px;  
+        width: 400px;
+        margin-left: -100px;
+        margin-right: 115px;
+    }
+
+    
+    .contacto .textoPeninsula{
+        margin-top: 100px;
+    }
+
+    .marcadorPeninsula{
+        margin-bottom: -50px;
+    }
+    
+    
+    .img4p{
+        margin-left: 90px;
+    }
+    
+    
+    .imgFac{
+        margin-left: 110px; margin-top: 20px;
+    }
+    
+    .imgGptw{
+        margin-left: 30px;margin-top: 20px;
+    }
+    
+    .avisoPrivacidad{
+        margin-left: 100px; margin-top: 35px;
+    }
+    
+    .imgFace{
+        margin-top: 30px; margin-left: 250px;
+    }
+    .imgLinked{
+        margin-top: 30px;
+    }
+   
+    
+    .comentarios{
+
+        font-size: 15px;
+    }
+
+    .irlLogo{
+        width: 35vh;
+        margin-bottom: 200px;
+    }   
+
+    .integraLogo{
+        width: 45vh;
+        margin-bottom: 280px;
+    } 
+    
+    .ssLogo{
+        width: 33vh;
+        margin-bottom: 160px;
+    }  
+
+    .bluLogo{
+        width: 35vh;
+        margin-bottom: 130px;
+    } 
+    
+    .letrasModales {
+        margin-top: -165px;
+        width: 45px;
+    }
+
+    
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .contacto, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .history, input[type=submit] {
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+    }
+}
+
+
+
+/*
+	ul#menu li a{
+        position: relative;
+        font-weight:bold;
+        color:#0E83CD;
+        margin: 0px 10px;
+    }
+
+
+    ul#menu li a:after{
+        position: absolute;
+        bottom: 5px;
+        left: 0px;
+        width: 100%;
+        height: 2px;
+        background-color: rgb(28, 106, 241);
+        transition-property: transform, left, background-color;
+        content: "";
+        opacity: 0;
+        transition: opacity 0.5s ease 0s, transform 0.5s ease 0s;
+        transform-origin: 0;
+        transform: translateY(10px); 
+        transform: translate3d(0, 0, 0) scaleX(0);
+        animation: fadeMeIn .2s forwards;
+        animation-delay: .2s;
+
+    }
+
+    ul#menu li a:after{
+    	text-decoration: underline;
+        opacity:0;
+        transform: translateY(2px);
+    }*/
+
+	@keyframes fadeMeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+.popup{
+  display: none;
+  width: 150px;
+  height: 100px;
+  background-color: #0E83CD;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modalIntegra {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modalss {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modalblu {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    
+}
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+.modal-contents {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+.modal-contentss {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.closeIntegra {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.closeIntegra:hover,
+.closeIntegra:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.closeSS {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.closeSS:hover,
+.closeSS:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.closeBlu {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.closeBlu:hover,
+.closeBlu:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.closeCorpo {
+    color: #aaaaaa;
+    font-size: 28px;
+    font-weight: bold;
+}
+.closeCorpo:hover,
+.closeCorpo:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.closeNorte {
+    color: #aaaaaa;
+    font-size: 28px;
+    font-weight: bold;
+}
+.closeNorte:hover,
+.closeNorte:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.closePeninsula {
+    color: #aaaaaa;
+    font-size: 28px;
+    font-weight: bold;
+}
+.closePeninsula:hover,
+.closePeninsula:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.column {
+    float: right;
+    width: 50%;
+    margin-top: 6px;
+}
+.ibody{
+    width: 500px;
+    margin: 30px auto;
+    
+}
+
+.jumbotron h1{
+    font-size: 24px;
+    text-align: center;
+}
+.jumbotron{
+    padding: 16px;
+}
+
+
+.label, input[type="submit"]{
+    margin-top: 6px;
+    }
+.btn:focus{
+    outline: none;
+}
+.comentarios{
+    resize: none;
+}
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+@media(min-width: 1367px) and (max-width: 8000px){
+    .timeline{
+        overflow: hidden;
+        
+        white-space: nowrap;       
+        clear: both;
+        height: 100vh;
+       
+        overflow-x: hidden;
+    }
+    .timeline ol {
+            height: 100%;
+            font-size: 0;           
+            padding: 449px 0;
+            width: -100vw; /*Espaciado izq del TimeLine*/
+            transition: all 1s;
+    }
+    .timeline ol li {
+        position: relative;
+        display: inline-block;
+        list-style-type: none;
+        width: 280px;/*espacio entre elementos*/
+        height: 2px;
+        background: #456990/*#EAE9E9*/;
+      }
+      .timeline ol li div::before {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: auto;
+        width: auto;
+        height: auto;
+        border-style: solid;
+      }
+      .timeline ol li:nth-child(odd) div {
+        top: -16px;
+        transform: translateY(-100%);
+      }
+      .timeline ol li:nth-child(odd) div::before {
+        top: 100%;
+        border-width: 8px 8px 0 0;
+        border-color: transparent transparent transparent transparent;
+      }
+      .timeline ol li:nth-child(even) div {
+        top: calc(100% + 16px);
+      }
+      .timeline ol li:nth-child(even) div::before {
+        top: -8px;
+        border-width: 8px 0 0 8px;
+        border-color: transparent transparent transparent transparent;
+      }
+      .timeline time {
+        display: block;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 8px;
+      }
+      .timeline ol li:last-child {
+        width: auto;
+      }
+      .timeline ol li:not(:first-child) {
+        margin-left: auto;
+      }
+      .timeline ol li:not(:last-child)::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        /*left: calc(100% + 1px);*/
+        bottom: 0;
+        width: 12px;
+        height: 12px;
+        transform: translateY(-50%);
+        border-radius: 50%;
+        background: #456990;
+      }
+      .timeline ol li div {
+        position: absolute;
+        /*left: calc(100% + 7px);*/
+        width: 280px;
+        padding: 20px;
+        font-size: 1rem;
+        white-space: normal;
+        color: black;
+      }
+}
+
+@media(min-width: 1024px) and (max-width: 1366px){
+    
+    .timeline{
+        overflow: hidden;
+        margin-top: 30px; 
+        white-space: nowrap;       
+        clear: both;
+        height: 100vh;
+      
+        overflow-x: hidden;
+    }
+    
+    .contenedor {
+        margin-top: -100px;
+        margin-right: 200px;
+    }
+    
+    .timeline ol {
+         height: 100%;
+         font-size: 0;           
+         padding: 449px 0;
+         width: -20vw; /*Espaciado izq del TimeLine*/
+         transition: all 1s;
+    }
+    
+    .timeline ol li {
+        position: relative;
+        display: inline-block;
+        list-style-type: none;
+        width: 215px;/*espacio entre elementos*/
+        height: 2px;
+        background: #456990/*#EAE9E9*/;
+      }
+    
+      .timeline ol li div::before {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: auto;
+        width: auto;
+        height: auto;
+        border-style: solid;
+      }
+      .timeline ol li:nth-child(odd) div {
+        top: -16px;
+        transform: translateY(-100%);
+      }
+      .timeline ol li:nth-child(odd) div::before {
+        top: 100%;
+        border-width: 8px 8px 0 0;
+        border-color: transparent transparent transparent transparent;
+      }
+      .timeline ol li:nth-child(even) div {
+        top: calc(100% + 16px);
+      }
+      .timeline ol li:nth-child(even) div::before {
+        top: -8px;
+        border-width: 8px 0 0 8px;
+        border-color: transparent transparent transparent transparent;
+      }
+      .timeline time {
+        display: block;
+        font-size: 1.4rem; /*tamaño de fecha*/
+        font-weight: bold;
+        margin-bottom: 8px;
+      }
+      .timeline ol li:last-child {
+        width: auto;
+      }
+      .timeline ol li:not(:first-child) {
+        margin-left: auto;
+      }
+      .timeline ol li:not(:last-child)::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        /*left: calc(100% + 1px);*/
+        bottom: 0;
+        width: 12px;
+        height: 12px;
+        transform: translateY(-50%);
+        border-radius: 50%;
+        background: #456990;
+      }
+      
+}
+@media screen and (max-width: 1367px){
+    img.responsive {
+        width: 60px;
+    }
+}
+@media(min-width: 1919px){    
+    .timeline ol li:not(:first-child) {
+        margin-left: -95px;
+      }
+}
+@media(min-width: 1367px) and (max-width:1910){    
+    .timeline ol li:not(:first-child) {
+        margin-left: -55px;
+        
+      }
+}
+@media(min-width: 690px){    
+    .timeline ol li:not(:first-child) {
+        margin-left: -75px;
+      }
+}
+
+@media(min-width: 300px) and (max-width:550){
+    .timeline{
+        padding-top: 5px;
+        margin-top: 30px;
+    }      
+}
+@media(max-width: 1367px){
+    .timeline ol li div {
+        position: absolute;
+        /*left: calc(100% + 7px);*/
+        width: 280px;
+        padding: 20px;
+        font-size: 15.5px; /*tamaño general de la letra*/
+        white-space: normal;
+        color: black;
+      }
+}
+
+
+
+/* TIMELINE ARROWS
+–––––––––––––––––––––––––––––––––––––––––––––––––– 
+
+.timeline .arrows {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+@media(min-width:1368px) and (max-width: 5367px){
+    .timeline .arrows {
+        margin-top: -105px;
+    }
+}
+
+@media(max-width: 1367px){
+    .timeline .arrows {
+        margin-top: -210px;
+    }
+}
+
+.timeline .arrows .arrow__prev {
+  margin-right: 20px;
+}
+
+.timeline .disabled {
+  opacity: .5;
+}
+
+.timeline .arrows img {
+  width: 45px;
+  height: 45px;
+}*/
+
+
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media screen and (max-width: 800px) {
+    .timeline ol,
+  .timeline ol li {
+    width: auto; 
+    
+  }
+
+  .timeline time {
+      font-size: 1.4rem;
+    }
+  
+  .timeline ol {
+    padding: 0;
+    transform: none !important;
+  }
+  
+  .timeline ol li {
+    display: block;
+    height: auto;
+    background: transparent;
+  }
+  
+  .timeline ol li:first-child {
+    margin-top: 25px;
+  }
+  
+  .timeline ol li:not(:first-child) {
+    margin-left: auto;
+  }
+  
+  .timeline ol li div {
+    width: 94%;
+    height: auto !important;
+    margin: 0 auto 15px;
+  }
+  
+  .timeline ol li div {
+    position: static;
+  }
+  
+  .timeline ol li:nth-child(odd) div {
+    transform: none;
+  }
+  
+  .timeline ol li:nth-child(odd) div::before,
+  .timeline ol li:nth-child(even) div::before {
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    border: none;
+    border-left: 1px solid white;
+    height: 25px;
+  }
+  
+  .timeline ol li:last-child,
+  .timeline ol li:nth-last-child(2) div::before,
+  .timeline ol li:not(:last-child)::after,
+  .timeline .arrows {
+    display: none;
+  }
+    
+    
+
+}
+
+
+@media screen and (max-width: 1300px) and (orientation: landscape) {
+    
+    
+    .timeline{
+        
+        height: auto;
+    }
+    
+    .timeline ol,
+  .timeline ol li {
+    width: auto; 
+    
+  }
+  
+  .timeline ol {
+      margin-top: 70px;
+    padding: 0;
+    transform: none !important;
+  }
+  
+  .timeline ol li {
+    display: block;
+    height: auto;
+    background: transparent;
+  }
+  
+  .timeline ol li:first-child {
+    margin-top: 25px;
+  }
+  
+  .timeline ol li:not(:first-child) {
+    margin-left: auto;
+  }
+  
+  .timeline ol li div {
+    width: 94%;
+    height: auto !important;
+    margin: 0 auto 25px;
+  }
+  
+  .timeline ol li div {
+    position: static;
+  }
+  
+  .timeline ol li:nth-child(odd) div {
+    transform: none;
+  }
+  
+  .timeline ol li:nth-child(odd) div::before,
+  .timeline ol li:nth-child(even) div::before {
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    border: none;
+    border-left: 1px solid white;
+    height: 25px;
+  }
+  
+  .timeline ol li:last-child,
+  .timeline ol li:nth-last-child(2) div::before,
+  .timeline ol li:not(:last-child)::after,
+  .timeline .arrows {
+    display: none;
+  }
+    
+    
+
+}
+
+
+
+
+
+

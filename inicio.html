@@ -1,0 +1,1460 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Bryan Velazquez">
+        <!-- Bootstrap CSS -->
+        
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+        <link rel="stylesheet" type="text/css" href="css/styles.css">  
+        
+        <link href="css/magnific-poup.css" rel="stylesheet" type="text/css" />
+
+      
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src = "js/custom.js" type="text/javascript"></script>
+
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <link rel="shortcut icon" href="images/ico4p.ico" />
+        <script src ="js/smooth-scroll.min.js"></script>
+        <script src= "https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+        <link href="http://yandex.st/jquery/fancybox/2.1.4/jquery.fancybox.css" rel="stylesheet" />
+        <script src="http://yandex.st/jquery/fancybox/2.1.4/jquery.fancybox.min.js"></script>
+
+
+        <script type="text/javascript">
+
+            var scroll = new SmoothScroll('a[href*="#"]', {
+                // Selectors
+                ignore: '[data-scroll-ignore]', // Selector for links to ignore (must be a valid CSS selector)
+                header: null, // Selector for fixed headers (must be a valid CSS selector)
+
+                // Speed & Easing
+                speed: 1500, // Integer. How fast to complete the scroll in milliseconds
+                offset: 100, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+                easing: 'easeInOutCubic', // Easing pattern to use
+                customEasing: function (time) {
+
+                    // Function. Custom easing pattern
+                    // If this is set to anything other than null, will override the easing option above
+
+                    // return <your formulate with time as a multiplier>
+
+                    // Example: easeInOut Quad
+                    return time < 0.5 ? 2 * time * time : -1 + (4 - 2 * time) * time;
+                },
+                // Callback API
+                before: function (anchor, toggle) {}, // Callback to run before scroll
+                after: function (anchor, toggle) {} // Callback to run after scroll
+            });
+            
+        </script>
+        
+        
+        <script>
+          $(document).ready(function(){
+            $('.carrusel').carousel({
+              interval: 30000
+            });
+          });
+        </script>
+
+
+        <title>4PMX</title>
+
+
+        <style>
+            
+            .footer-distributed{
+                    background-color: #1c4387;
+                    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+                    box-sizing: border-box;
+                    width: 100%;
+                    text-align: left;
+                    padding: 5px 80px;
+                    }
+
+                .footer-distributed .footer-left p{
+                   
+                    font-size: 14px;
+                    margin: 0;
+                }
+
+                /* Footer links */
+
+                .footer-distributed p.footer-links{
+                    font-size:18px;
+                    font-weight: bold;
+                    color:  #ffffff;
+                    margin: 0px 10px 0px;
+                    padding: 0;
+                }
+
+                .footer-distributed p.footer-links a{
+                    display:inline-block;
+                    line-height: 1.8;
+                    text-decoration: none;
+                    color:  inherit;
+                }
+
+                .footer-distributed .footer-right{
+                    float: right;
+                    margin-top: 25px;
+                    max-width: 180px;
+                }
+
+                .footer-distributed .footer-right a{
+                    display: inline-block;
+                    width: 35px;
+                    height: 35px;
+                    background-color:  #1c4387;
+                    border-radius: 2px;
+                    font-size: 20px;
+                    color: #ffffff;
+                    text-align: center;
+                    line-height: 35px;
+                    margin-left: 3px;
+                }
+
+                /* If you don't want the footer to be responsive, remove these media queries */
+
+                @media (max-width: 600px) {
+
+                    .footer-distributed .footer-left,
+                    .footer-distributed .footer-right{
+                        text-align: center;
+                    }
+
+                    .footer-distributed .footer-right{
+                        float: none;
+                        margin: 0 auto 20px;
+                    }
+
+                    .footer-distributed .footer-left p.footer-links{
+                        line-height: 1.8;
+                    }
+                }
+
+        </style>
+
+        <style>
+            body{
+                overflow-x: hidden;
+            }
+        </style>
+
+
+        
+    </head>
+    <body>
+
+            
+        <!-- MENU -->
+        <section class="contaniner-fluid">
+            <section >
+                    <nav  id = "menu" class="menu fixed-top navbar-expand-lg navbar-light bg-light py-xl-0 py-lg-0 ">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class = "collapse navbar-collapse" id="navbarTogglerDemo01">
+                                
+                                <a class="navbar-brand my-md-4 my-sm-4 my-4" href="#">
+                                    <img src="images/4pmx_color.svg" width="150" class="img-fluid ml-2 py-2">
+                                </a>
+                                
+                                <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+                                    <li class=" item d-flex align-items-center justify-content-center" >                                
+                                        <a class=" nav-link mr-xl-3 m-md-0"  href="#" id="inicio_a" onclick="subrayar(this.id)"> INICIO </a>
+                                    </li>
+                                    <li  class= "item d-flex align-items-center justify-content-center">
+                                        <a class=" nav-link mr-xl-3 m-md-0"  id="nosotros_a" onclick="subrayar(this.id)" href="#nosotros">NOSOTROS</a>
+                                    </li>
+                                    <li class="item d-flex align-items-center justify-content-center">                              
+                                        <a class=" nav-link mr-xl-3 m-md-0" href="#contacto"  id="contacto_a" onclick="subrayar(this.id)">CONTACTO</a>
+                                    </li>
+                                </ul>                            
+                                   
+                                 <a href="https://www.facebook.com/Somos4PMX/" target="_blank" class="pr-2" data-target=".navbar-collapse.show" >
+                                    <img src="images/social/facebook.png" width="33">
+                                </a>
+                                <a href="https://mx.linkedin.com/company/4p-mx" target="_blank" data-target=".navbar-collapse.show">
+                                    <img src="images/social/linkedin.png" width="33">
+                                </a>
+                            </div>
+                        </nav>
+            </section>
+
+            <!--***************************************Homepage***************************************************-->
+            <div class="homepage" >
+
+                <div class="home-image h-100 d-flex justify-content-center align-items-center" >
+            
+                    <span class="title-nosotros text-white text-center titulo-4p">
+                        <span class="font-weight-bold" >60 años rompiendo esquemas en el mercado.</span> <br>
+                        Especialistas consultores de riesgo. 
+                    </span>
+
+                </div>
+
+                <div class="home-image d-flex justify-content-center align-items-center" >
+            
+                        <a data-scroll href="#nosotros" class = " position: absolute;"  >
+                                <div >
+                                    <img style = "z-index: 3; " src='images/arrow.png' width='20' class ='img-fluid' >
+                                </div>
+                        </a>
+    
+                </div>
+
+               
+            </div>
+            <!--***************************************FinHomePage************************************************-->
+            <!--******************************************Empresas************************************************-->
+            <div  id="nosotros" class= "empresas" style="padding-top: 30px;">
+                
+                <div class="gray-page h-100 row mx-0 align-items-center justify-content-center text-center pt-5" style="z-index:0;">
+                    <!--<span class="fondo-nosotros" style="z-index:0;">NOSOTROS</span>-->
+                    
+                    <div class = "h-100  d-flex align-items-center justify-content-center" style = "z-index: 0; position: absolute;">
+
+                        <img  style = "margin-right: 10%; margin-left: 10%; z-index: 1; width: 100%;" src="../4p/images/nosotros-back.png" />
+
+                    </div>
+                   
+                    
+                <!-- irl -->
+                   
+                    <div class="icono col-xl-3 col-lg-6 col-md-6 col-sm-6 col-6" style='width:100%;  height:auto;'>
+                        <img src="images/logos/irl_azul.svg" width="150" id="irl" onmouseover="color('irl');" onmouseout="azul('irl')" class = "toolIRL tool img-fluid"  >
+                    </div>
+ 
+                    <div id="myModal" class="modal" style='width:100%; height:auto;' >
+
+                      <div class = " cuerpoModal modal-body" >
+
+                        <section id ='empresas' class = 'row p-0 mx-0 align-items-center justify-content-center' style='height: 80vh; overflow-y: hidden;'>
+
+                            <div class = 'irl-page row m-0 pt-3 pb-4 w-100 align-items-center justify-content-center text-left' >
+                                   
+                                    <div class = 'col-xl-12 text-right mx-auto'style='width:100%; height: auto;  margin-top:0%;'>
+                                            <img style = "z-index: 3;" src='images/sections/irlclose.png' width='20' class ='img-fluid' >
+                                    </div>
+                                       
+                                   <div id = "modalpagina" class='col-xs-3 col-sm-4 col-md-5 col-lg-4 col-xl-4 text-center' > 
+                                       <img src='images/logos/irl.png'  class ='irlLogo'>
+                                   </div>
+                                   
+                                    
+                                   <div class = 'letrasModales col-xs-9 col-sm-8 col-md-7 col-lg-6 col-xl-6 py-4 pl-4 'style='width:100%;  height:auto;'>
+                                       <span class='titulo3-irl'><strong>BRÓKER DE SEGUROS ESPECIALIZADO EN SECTOR CORPORATIVO</strong></span>
+                                       <p class='py-3 texto3-irl'>Empresa especializada en el análisis y colocación de riesgos con las mejores compañías de seguros, fianzas y reaseguro en el mundo, ofreciendo un servicio integral de asesoría y atención personalizada. </p>
+                                       <img src='images/png/lineas_negocio/vida_gm.png' width='60'id='irl' class='tool img-fluid' title='Pólizas de Vida y Gastos Médicos Mayores individuales, grupales y empresariales. Beneficios adicionales como seguro dental y de vista.'>
+                                       <img src='images/png/lineas_negocio/danos.png' width='60' id='irl' class='tool img-fluid' title='Casa habitación, edificios, maquinaria de contratistas, responsabilidad civil. '>
+                                       <img src='images/png/lineas_negocio/financieras.png' width='60' id='irl' class='tool img-fluid' title='Fianzas, Errores y omisiones, D&O, IPO.'>
+                                       <img src='images/png/lineas_negocio/flotillas.png' width='60'  id='irl' class='tool img-fluid' title='Particulares, empresariales, motocicletas, camiones, transporte privado, tractocamiones.'>
+                                    </div>
+
+                                    <div  id = "botoncerrarmodal" class = 'irAlSitio col-xl-12 text-right pr-5'style='width:100%; height:auto;'>
+                                            <a class='btn-irl px-4' href='https://irl.com.mx/' target = "_blank" role='button'>IR AL SITIO</a>
+                                    </div>
+                                    
+                                </div>
+                                
+                            </section>
+                            
+                        </div>
+                       
+                    </div>
+                
+                <!-- End Irl -->
+
+                <!-- integra -->
+                    
+                    <div class="icono col-xl-3 col-lg-6 col-md-6 col-sm-6 col-6 "  style='width:100%;  height:auto;'>
+                        
+                        <img src="images/logos/integra_azul.svg" width="250" id="integra" onmouseover="color('integra');" onmouseout="azul('integra')" class = "toolIntegra tool img-fluid" >
+                        
+                    </div>
+
+                    <div id="myModalIntegra" class = "modal modalIntegra" >
+
+                        <div class="cuerpoModal modal-body" >
+                            
+                            <section id='empresas' class='row p-0 mx-0 align-items-center justify-content-center' style='height: 80vh; overflow-y: hidden;'>
+
+                                    <div align = "right"  style = "  z-index: 6;">
+                                            
+                                    </div>   
+                                    
+                                
+                                <div class='integra-page row m-0 pt-3 pb-4 w-100 align-items-center justify-content-center text-left'>
+
+                                        <div class = 'col-xl-12 text-right mx-auto'style='width:100%; height: auto;  margin-top:-1%;'>
+                                                <img style = "z-index: 3;" src='images/sections/intclose.png' width='20' class ='img-fluid' >
+                                        </div>
+                                    
+                                        <div id = "modalpagina" class = 'col-xs-3 col-sm-5 col-md-5 col-lg-4 col-xl-4  text-center' > 
+                                                <img src='images/logos/integra.png'  class ='integraLogo'>
+                                        </div>
+                                    
+                                    <div class='letrasModales col-xs-9 col-sm-7 col-md-7 col-lg-6 col-xl-6 py-4 pl-4' style='width:100%;  height:auto;'>
+                                        <span class='titulo3-integra'>BRÓKER DE SEGUROS ESPECIALIZADO EN LÍNEAS<br>INDIVIDUALES Y PYMES</span>
+                                        
+                                        <p class='py-3 texto3-integra'>Compañía especializada en el análisis y colocación de riesgos de líneas personales y Pymes con las mejores compañías de seguros, fianzas, ofreciendo un servicio integral de asesoría y atención personalizada. </p>
+                                        
+                                        <img src='images/png/lineas_negocio/vidaint.png' width='60'id='integra' class='tool img-fluid' title='Pólizas de vida y gastos médicos familiares y para empresas pequeñas'>
+                                        
+                                        <img src='images/png/lineas_negocio/danosint.png' width='60'id='integra' class='tool img-fluid' title='Casa habitación, oficinas Pymes'>
+                                        
+                                        <img src='images/png/lineas_negocio/financierasint.png' width='60'id='integra' class='tool img-fluid' title='Vehículos particulares, transporte privado, motocicletas'>
+                                        
+                                        <img src='images/png/lineas_negocio/vehiculosint.png' width='60' id='integra' class='tool img-fluid' title='Fianzas'>
+                                        </div>
+                                    
+                                    
+                                    
+                                        <div id = "botonsitiointegra"  class='irAlSitio col-xl-12 text-right pr-5' style='height:auto;'>
+                                            <a class=' btn-integra px-4' href='http://www.integraseguros.com.mx/' target = "_blank" role='button'>IR AL SITIO</a>
+                                        </div>
+                                    </div>
+                                </section>
+                        
+                        </div> 
+                        <div id="captions"style='width:100%;  height:auto;'></div>
+                    </div>
+                    
+                <!-- End Integra -->
+                    
+                <!-- Inicio SS -->
+                    
+                    <div class="icono col-xl-3 col-lg-6 col-md-6 col-sm-6 col-6">
+                        <img src="images/logos/ss_azul.svg" width="150" id="ss" onmouseover="color('ss');" onmouseout="azul('ss')" class = "toolSS tool img-fluid"   onclick="changeText('ss');">
+                    </div>
+                    <div id="myModalSS" class = "modal modalss" >
+
+                                                  
+                        <div class=" cuerpoModal modal-body">
+                            
+                            <section id='empresas' class='row p-0 mx-0 align-items-center justify-content-center' style='height: 80vh;overflow-y: hidden;'>
+
+                                    
+                                <div class='ss-page row m-0 pt-3 pb-4 w-100 align-items-center justify-content-center text-left' >
+
+                                        <div class = 'col-xl-12 text-right mx-auto'style='width:100%; height: auto;  margin-top:-1%;'>
+                                                <img style = "z-index: 3;" src='images/sections/ssclose.png' width='20' class ='img-fluid' >
+                                        </div>
+                                    
+                                        <div id = "modalpagina" class = 'col-xs-3 col-sm-4 col-md-5 col-lg-4 col-xl-4  text-center' > 
+                                                <img src='images/logos/ss.png'  class ='ssLogo'>
+                                        </div>
+
+                                    <div class='letrasModales col-xs-9 col-sm-8 col-md-7 col-lg-6 col-xl-6 py-4 pl-4'>
+                                        <span class='titulo3-ss'>SEGUROS MASIVOS Y AFINIDAD</span>
+                                        <p class='py-3 texto3-ss'>Compañía especializada en el desarrollo de programas de afinidad para la generación de ingresos adicionales a través de la distribución de productos innovadores en canales masivos. </p>
+                                        <img src='images/png/lineas_negocio/travel.png' width='60'id='ss' class='tool img-fluid' title='Servicios de protección al viajero, seguros y asistencias.'>
+                                        <img src='images/png/lineas_negocio/autos.png' width='60' class='mx-2'id='ss' class='tool img-fluid' title='Cotiza y contrata en línea. Tarifas especiales para financieras.'>
+                                        <img src='images/png/lineas_negocio/retail.png' width='60'id='ss' class='tool img-fluid' title='Protección a bienes adquiridos, seguros y asistencias'>
+                                        <img src='images/png/lineas_negocio/financiras.png' width='60' id='ss' class='tool img-fluid' title='Protección ligada a líneas de crédito y valores agregados.'>
+                                        <img src='images/png/lineas_negocio/lealtad.png' width='60' id='ss' class='tool img-fluid' title='Programas de recompensas y lealtad'>
+                                        <img src='images/png/lineas_negocio/bicicletas.png' width='60' id='ss' class='tool img-fluid' title='Seguro para bicicletas nuevas o usadas y seguro para ciclistas.'>
+                                        </div>
+                                    
+                                    <div  id = "botonsitioss" class='irAlSitio col-xl-12 text-right pr-5'>
+                                        <a class='btn-ss px-4' href='https://www.s.com.mx/' target="_blank" role='button'>IR AL SITIO</a>
+                                        </div>
+                                    </div>
+                                </section>
+                            
+                        </div>
+                        <div id="caption"style='width:100%;  height:auto;'></div>
+                    </div>
+                <!-- End SS -->
+
+                <!--BluA-->
+                    <div class="icono col-xl-3 col-lg-6 col-md-6 col-sm-6 col-6 offset-lg-0 offset-xl-0">
+                        <img src="images/logos/ba_azul.svg" width="150" id="ba" onmouseover="color('ba');" onmouseout="azul('ba')" class = "toolBA tool img-fluid"  onclick="changeText('ba');">
+                    </div>
+                    
+                    <div id="myModalBlu" class = " modal modalblu">
+
+                                                   
+                        <div class=" cuerpoModal modal-body" >
+                            
+                            <section id='empresas' class='row p-0 mx-0 align-items-center justify-content-center' style='height: 80vh;overflow-y: hidden;'>
+
+                                    
+
+                                <div class='blu-page row m-0 pt-3 pb-4 w-100 align-items-center justify-content-center text-left' >
+
+                                        <div class = 'col-xl-12 text-right mx-auto'style='width:100%; height: auto;  margin-top:-1%;'>
+                                                <img style = "z-index: 3;" src='images/sections/bluclose.png' width='20' class ='img-fluid' >
+                                        </div>
+                                    
+                                        <div id = "modalpagina" class = 'col-xs-4 col-sm-4 col-md-5 col-lg-4 col-xl-4  text-center' > 
+                                                <img src='images/logos/blu.png'  class ='ssLogo'>
+                                        </div>
+
+                                    <div class=' letrasModales col-xs-9 col-sm-8 col-md-7 col-lg-6 col-xl-6 py-4 pl-4'>
+                                        <span class='titulo3-blu'>EMPRESA DE ASISTENCIA</span>
+                                        <p class='py-3 texto3-blu'>Compañía de asistencia especializada en atender y operar programas masivos de lealtad, beneficios y servicios. </p>
+                                        <img src='images/png/lineas_negocio/bluhogar.png' width='60'id='ba' class='tool img-fluid' title='Asistencia hogar'>
+                                        <img src='images/png/lineas_negocio/blutravel.png' width='60' id='ba' class='tool img-fluid' title='Gestión de servicios de protección al viajero en todo el mundo'>
+                                        <img src='images/png/lineas_negocio/bluasesorialegal.png' width='60'id='ba' class='tool img-fluid' title='Asistencia legal y en trámites'>
+                                        <img src='images/png/lineas_negocio/blumascotas.png' width='60' id='ba' class='tool img-fluid' title='Protección a tu mascota'> 
+                                        <img src='images/png/lineas_negocio/bluvial.png' width='60' id='ba' class='tool img-fluid' title='Asistencia vial'>
+                                        <img src='images/png/lineas_negocio/bluproteccion.png' width='60' id='ba' class='tool img-fluid' title='Gestión de garantías extendidas y protección a gadgets'>
+                                        <img src='images/png/lineas_negocio/bluatencionmedica.png' width='60'id='ba' class='tool img-fluid' title='Asistencias médicas, ambulancias, médicos en red y a domicilio'>
+                                        </div>
+                                    
+                                    <div id = "botonsitioblu" class='irAlSitio col-xl-12 text-right pr-5'>
+                                        <a class = 'btn-blu px-4' href='http://bluassistance.com.mx/' target = "_blank" role='button'>IR AL SITIO</a>
+                                        </div>
+                                    </div>
+                                </section>
+                        </div>
+                    </div>
+                <!--EndBluA-->
+                    
+                        <div class="icono col-xl-12 texto-4p" >
+                            <span>
+                                Grupo especializado en seguros, fianzas, asistencias, lealtad y programas masivos. <br>
+                                Empresa joven, creemos que el mejor trabajo se hace cuando te dedicas a lo que te gusta.
+                            </span>                    
+                        </div>
+                        <div id = "spanEmpresasDer" class="spanEmpresasDer col-xl-5 text-right texto-4p" style = "margin-bottom: 3%;" >
+                            <span>
+                                +160 colaboradores al <br>
+                                servicio de nuestros clientes
+                            </span>       
+                        </div>
+
+                        <br>
+                        <br>
+                        <br>
+                        <div class = "col-xl-2 p-0" style = "margin-bottom: 3%;">
+                            
+                            <img src="images/png/nosotros/colaborador.png" width="90" class="mr-3">
+                            <img src="images/png/nosotros/atencion.png" width="90">
+
+                        </div>
+
+                        <div id = "spanEmpresasIzq" class="spanEmpresasIzq col-xl-5 text-left texto-4p" style = "margin-bottom: 3%;">
+                            <span>
+                                Atendemos más de 3.8 millones<br>
+                                de personas cada año
+                            </span>
+                        </div>
+                                   
+                </div>
+            </div>
+            <!--*****************************************Fin Empresas*********************************************-->
+            
+            <!--*****************************************Meta4P***************************************************-->
+            <div class="meta4p">
+                <div class="home-meta h-100 row mx-0 align-items-center"style="width:100%;  height:100%;">
+                        <div class = "h-100  d-flex align-items-center justify-content-center " style = " width: 100%; z-index: 1; position: absolute;">
+
+                                <img  style = " z-index: 1; " src="../4p/images/meta-back.png" />
+        
+                        </div>
+                       
+                    <div class="col-xl-12 text-center text-white"style="width:100%; height: auto;">
+
+                        <span class="h3 font-weight-bold">
+                            NUESTRA META
+                        </span>
+                        <p class="mt-5" style="font-size: 1.4em; height: auto; ">
+                            Nuestra meta principal es dar un increíble servicio a los clientes. <br>
+                            De ahí parte todo lo demás: <br><br>
+                            Buscamos ser la mejor opción a nivel nacional en el mercado de intermediación de<br>
+                            seguros, fianzas y planes de lealtad, rebasando las expectativas de nuestros clientes y<br>
+                            socios comerciales. <br><br>
+                            Ofrecemos una asesoría integral, innovación, diversos servicios y un excelente servicio<br>
+                            respaldado por las mejores compañías del mundo, a través de un gran equipo de<br>
+                            trabajo, comprometido y experto en su giro.                     
+                        </p>
+                    </div>                    
+                </div>
+            </div>
+            <!--***************************************FinMeta4P**************************************************-->
+            
+            <!--******************************************FrasesGreatPlace****************************************-->
+            <div class = "divFrases gray-page contaniner-fluid" >
+                <div class = "h-100 row align-items-center justify-content-center mx-0 text-center">    
+                    <!--<span class="fondo-nosotros" style="z-index:0;">NOSOTROS</span>-->
+                    
+                    <div class = "h-100  d-flex align-items-center justify-content-center" style = "z-index: 1; position: absolute;">
+
+                        <img  style = "margin-right: 10%; margin-left: 10%; z-index: 1; width: 100%;" src="../4p/images/nosotros-back.png" />
+
+                    </div>
+                   
+                    <div id="carouselExampleSlidesOnly" class="carousel-slide" data-ride = "carousel" interval: "30000" >
+                        <div class = "comentarios carousel-inner" style = "margin-top: 5%;" >
+
+                            <div class="carousel-item active" >
+                                <div class="row">
+                                    <div class="col-xl-1">
+                                        <span class="comillas-4p">“</span>
+                                    </div>
+                                    <div class="col-xl-10 texto-4p">
+                                        4P/MX es un increíble lugar para trabajar porque hay mucha gente apasionada, que cree en hacer las cosas diferente e innovando, expertos en sus campos y es un lugar en donde se ve a la gente y sus habilidades, capacidad y perfil. Siempre hay oportunidad de crecer.
+                                    </div>
+                                    <div class="col-xl-1"> 
+                                        <span class="comillas-4p">”</span>
+                                    </div>
+                                </div>                                    
+                            </div>
+                            <div class="carousel-item " >
+                                <div class="row">
+                                    <div class="col-xl-1">
+                                        <span class="comillas-4p">“</span>
+                                    </div>
+                                    <div class="col-xl-10 texto-4p">
+                                        En 4P/MX siempre vemos a nuestros clientes como la prioridad número uno. Brindar una asesoría experta con la mejor calidad en el servicio es una de las reglas que nos rigen todos los días.
+                                        <br>
+                                    </div>
+                                    <div class="col-xl-1">
+                                        <span class="comillas-4p">”</span>
+                                    </div>
+                                </div>    
+                            </div>
+                            <div class="carousel-item" >
+                                <div class="row">
+                                    <div class="col-xl-1">
+                                        <span class="comillas-4p">“</span>
+                                    </div>
+                                    <div class="col-xl-10 texto-4p">
+                                        El equipo de 4P/MX es increíble porque todos sabemos lo importantes que somos en el rompecabezas que genera grandes resultados. El trabajo en equipo es esencial para superar las expectativas de nuestros clientes.
+                                        <br>
+                                    </div>
+                                    <div class="col-xl-1">
+                                        <span class="comillas-4p">”</span>
+                                    </div>
+                                </div>  
+                            </div>
+
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <!--*********************************************FinFrasesGreat*****************************************-->
+
+            <!--*********************************GreatPlaceToWork*************************************************-->
+            <div style = "margin-bottom: 30px;" >
+                    <div class="h-500 mx-0 align-items-center" > 
+                     
+                        <div class="imagenesgptw col-xl-12 text-center" >                        
+                            
+                            <div class="row">
+                                <div id="carouselExampleSlidesOnly" class="col-xl-6 carousel slide px-0" data-ride="carousel">
+                                    <div class="carruselGptw carousel-inner" >
+    
+                                        <div class="h-100 w-100 d-flex align-items-center justify-content-center" style="z-index: 1; position: absolute; width: 100px; height: auto; ">
+                                            <span class="texto-over">GREAT PLACE TO WORK 2018</span>    
+                                        </div>
+                                        <div class="carousel-item active" >
+                                            <img class="gptwUno d-block w-100" src="images/gptw.jpg"> 
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="gptwDos d-block w-100" src="images/gptw2.jpg">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="gptwTres d-block w-100" src="images/gptw3.jpg">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="gptwCuatro d-block w-100" src="images/gptw4.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div id="carouselExampleSlidesOnly" class="ubicaciones col-xl-6 carousel slide px-0" data-ride="carousel">
+                                    <div class="carousel-inner">   
+    
+                                       <div class="row"> 
+    
+                                        <div id="carouselExampleSlidesOnlyy" class="col-xs-6 col-sm-12 carousel slide px-0" data-ride="carousel">
+
+                                            <div class="carousel-inner">
+                                                <a style="text-decoration:none; " data-scroll href="#contacto">
+                                                    <div class=" w-100 d-flex align-items-center justify-content-center" style="z-index: 3; position: absolute;  width: auto; height: 81%;">
+                                                        
+                                                            <span id = "mapaCorporativo" data-value = "zonacorporativo" onclick="mostrarMapaCorporativo(), mostrarDireccionCorporativo()" class = "spanCorpo  texto-over" id="corporativo4pmx">CORPORATIVO 4PMX</span> 
+                                                    
+                                                    </div>
+                                                </a>
+                                                <div class = "h-100 w-100 d-flex align-items-center justify-content-center" style = "z-index: 1; position: absolute;  width: auto; height: auto;">
+
+                                                    <img  style = "margin-right:  auto; margin-left: auto; z-index: 1; width: 20px;" src="images/marcadorMap.png"/>
+
+                                                </div>
+
+                                                <div class="carousel-item active">  
+                                                    
+                                                    <img class = "imgCorpo d-block w-100" id = "imgCorpo" src = "images/cdmx.jpg">
+                                                    
+                                                </div>
+
+                                            </div>
+                                            
+                                            <div class="row">  
+
+                                                <div id="carouselExampleSlidesOnlyy" class="col-xs-6 col-sm-6 carousel slide px-0" data-ride="carousel">
+                                                    
+                                                    <div class="carousel-inner">
+                                                        
+                                                        <a data-scroll href="#contacto" >
+                                                            <div  id = "mapaNorte"  data-value = "zonanorte" onclick ="mostrarMapaNorte(), mostrarDireccionNorte()"  class=" w-100 d-flex align-items-center justify-content-center" style="z-index: 3; position: absolute; height: 68%;">
+                                                                <span   class="texto-over" style = "font-size: 100%;" >OFICINA ZONA NORTE</span>    
+                                                            </div>
+                                                        </a>
+
+                                                        <div class = "h-100 w-100 d-flex align-items-center justify-content-center" style = "z-index: 1; position: absolute;  width: auto;">
+
+                                                                <img  style = "margin-right:  auto; margin-left: auto; z-index: 1; width: 20px;" src="images/marcadorMap.png"/>
+
+                                                        </div>
+                                                        
+                                                        <div class="carousel-item active">  
+
+                                                            <img id = "imagenNorte" class = "imgNorte d-block w-100" src="images/norte.jpg">
+
+                                                        </div>  
+
+                                                    </div>
+
+                                                </div>
+
+                                                <div id="carouselExampleSlidesOnlyy" class="col-xs-6 col-sm-6 carousel slide px-0" data-ride="carousel">
+                                                    
+                                                    <div class="carousel-inner">
+
+                                                        <a data-scroll href="#contacto">
+                                                            <div  id = "mapaPenisula" data-value = "zonapeninsula" onclick = "mostrarMapaPeninsula(), mostrarDireccionPeninsula()" class=" w-100 d-flex align-items-center justify-content-center" style="z-index: 3; position: absolute; height: 68%; ">
+                                                                <span class=" texto-over" style = "font-size: 100%;">OFICINA ZONA PENINSULA</span>    
+                                                            </div>
+                                                        </a>
+
+                                                        <div class = "h-100 w-100 d-flex align-items-center justify-content-center" style = "z-index: 1; position: absolute;  width: auto;">
+
+                                                                <img  style = "margin-right:  auto; margin-left: auto; z-index: 1; width: 20px;" src="images/marcadorMap.png"/>
+
+                                                        </div>
+                                                            
+            
+                                                        <div class="carousel-item active">
+
+                                                            <img class="imgPeninsula d-block w-100" src="images/peninsula.jpg">
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>  
+                                            </div>  
+                                                </div>
+                                            </div>
+                                        </div>          
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                </div> 
+            <!--*********************************FinGreatPlaceToWork**********************************************-->
+            
+            <!--**********************************Timeline********************************************************-->
+            <div class="timeline gray-page" style = "margin-bottom: 30px;" >
+
+
+              <div class="contenedor col-xl-12 d-flex align-items-center justify-content-center" >
+                    <div class = "h-100  d-flex align-items-center justify-content-center" style = "z-index: 0; position: absolute;">
+
+                            <img  style = "margin-right: 10%; margin-left: 10%; z-index: 0; width: 100%;" src="../4p/images/historia-back.png" />
+    
+                    </div>
+                <ol>
+                    <li>
+                      <div align="center">
+                        <time>1951</time><br>
+                         <img src="images/png/historia/1951.png" width="80" class="responsive" > 
+                        <br><p>Iniciamos operaciones como un agente de seguros enfocado en líneas personales.</p>
+                      </div>
+                    </li>
+                      <li>
+                      <div align="center">
+                        <time>2003</time><br>
+                          <img src="images/png/historia/2003.png" width="80" class="responsive" > 
+                        <br><p>Se constituye IRL ampliando su atención al sector corporativo.</p>
+                      </div>
+                    </li>
+                      <li>
+                      <div align="center">
+                        <time>2006</time><br>
+                          <img src="images/png/historia/2006.png" width="80" class="responsive" > 
+                        <br><p>Nace Seguros S, enfocado en seguros masivos y afinidad.</p>
+                      </div>
+                    </li>
+                      <li>
+                      <div align="center">
+                        <time>2015</time><br>
+                          <img src="images/png/historia/2015.png" width="80"class="responsive" > 
+                        <br><p>Arpa Capital, fondo de capital privado invierte en IRL y Seguros S potenciando el crecimiento corporativo.</p>
+                      </div>
+                    </li>
+                      <li>
+                      <div align="center">
+                        <time>2015</time><br>
+                          <img src="images/png/historia/2015_b.png" width="80"class="responsive" > 
+                        <br><p>Se funda 4P/MX, con un equipo administrativo fortalecido conjunto: <br>
+                            Arpa Capital, IRL y Seguros S. </p>                         
+                      </div>
+                    </li>
+                      <li>
+                      <div align="center">
+                        <time>2017</time><br>
+                          <img src="images/png/historia/2017_a.png" width="80"class="responsive" > 
+                        <br><p>Apertura de oficinas regionales en Zona Norte y Zona Península.</p>
+                      </div>
+                    </li>
+                      <li>
+                      <div align="center">
+                        <time>2017</time><br>
+                          <img src="images/png/historia/2017_b.png" width="80"class="responsive" > 
+                        <br><p>Nace Blu Assistance, robusteciendo la gama de soluciones de negocio ofrecidas con asistencias.</p>
+                      </div>
+                    </li>
+
+                      <li>
+                      <div align="center">
+                        <time>2017</time><br>
+                          <img src="images/png/historia/2017_c.png" width="80"class="responsive" >
+                        <br><p>Integra se una a 4P/MX brindando mayor especialización al sector de líneas personales.</p>
+                      </div>
+                    </li>
+
+                    <!-- more list items here -->
+
+                    <li></li>
+                  </ol>
+                </div>  
+
+              
+            </div>
+            <!--********************************EndTimeline*******************************************************-->
+          
+            
+        <!--*********************"***********************Formulario************************************************-->
+           <div class="formulario" >
+               
+                <div class="formulario-page h-100 row align-items-center justify-content-center mx-0 text-center" style="height:100vh;">
+                        <div class = "h-100  d-flex align-items-center justify-content-center" style = "z-index: 1; position: absolute;">
+
+                                <img  style = "margin-right: 10%; margin-left: 10%; z-index: 1; width: 100%;" src="../4p/images/contacto-azul.png" />
+        
+                        </div>
+                    <div class = "col-xs-3 col-sm-6 col-md-6 col-lg-6 col-xl-6" style = "height: auto;">
+
+                        <p class="texto2-4p font-weight-bold" style="color:white; width:auto; height: auto">
+                            <strong>¡Gracias por visitarnos!</strong> <br> Rellena
+                            el siguiente formulario para<br> hacernos llegar tu mensaje.<br>
+                            <span style="color:#dedddd;">¡Nos encantará saber de ti!</span>
+                        </p>    
+                                            
+                    </div>
+                    <div class = "col-xs-3 col-sm-6 col-m6-6 col-lg-6 col-xl-6" style = "height: auto;">
+                   
+                        <div class="row h-100">
+
+                            <div class="col-xs-3 col-sm-11 col-md-11 col-lg-11 col-xl-11 offset-xl-0">
+                            
+                                <form method = "post" name = "fcontacto" id = "fcontacto" action = "send.php" >
+                                    
+                                        
+                                    <div class = "col-xl-8 offset-xl-2">
+                                        <div class = "form-pmx py-4 px-4">
+
+                                            <div class="form-group">
+                                                <select class="custom-select" name="tipopersona" required>
+                                                    <option value="Selecciona" disabled selected>P.FISICA/MORAL</option>
+                                                    <option value="Persona Física">Persona Física</option>
+                                                    <option value="Persona Moral">Persona Moral</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group mt-3">
+                                                <input type="text" class="form-control"  pattern="[a-z ,A-Z ,]{1,50}" name = "nombre" id="nombre" placeholder="NOMBRE">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" pattern="[a-z ,A-Z ]{1,50}" name = "apellidos" id="apellidos" placeholder="APELLIDOS">
+                                            </div>
+                                            <div class="form-group">
+                                                <select class="custom-select" name="estados" required>
+                                                    <option value="Todo México" disabled selected>ESTADO</option>
+                                                    <option value="Aguascalientes">Aguascalientes</option>
+                                                    <option value="Baja California">Baja California</option>
+                                                    <option value="Baja California Sur">Baja California Sur</option>
+                                                    <option value="Campeche">Campeche</option>
+                                                    <option value="Coahuila de Zaragoza">Coahuila de Zaragoza</option>
+                                                    <option value="Colima">Colima</option>
+                                                    <option value="Chiapas">Chiapas</option>
+                                                    <option value="Chihuahua">Chihuahua</option>
+                                                    <option value="Distrito Federal">Ciudad de México</option>
+                                                    <option value="Durango">Durango</option>
+                                                    <option value="Guanajuato">Guanajuato</option>
+                                                    <option value="Guerrero">Guerrero</option>
+                                                    <option value="Hidalgo">Hidalgo</option>
+                                                    <option value="Jalisco">Jalisco</option>
+                                                    <option value="México">México</option>
+                                                    <option value="Michoacán de Ocampo">Michoacán de Ocampo</option>
+                                                    <option value="Morelos">Morelos</option>
+                                                    <option value="Nayarit">Nayarit</option>
+                                                    <option value="Nuevo León">Nuevo León</option>
+                                                    <option value="Oaxaca">Oaxaca</option>
+                                                    <option value="Puebla">Puebla</option>
+                                                    <option value="Querétaro">Querétaro</option>
+                                                    <option value="Quintana Roo">Quintana Roo</option>
+                                                    <option value="San Luis Potosí">San Luis Potosí</option>
+                                                    <option value="Sinaloa">Sinaloa</option>
+                                                    <option value="Sonora">Sonora</option>
+                                                    <option value="Tabasco">Tabasco</option>
+                                                    <option value="Tamaulipas">Tamaulipas</option>
+                                                    <option value="Tlaxcala">Tlaxcala</option>
+                                                    <option value="Veracruz de Ignacio de la Llave">Veracruz de Ignacio de la Llave</option>
+                                                    <option value="Yucatán">Yucatán</option>
+                                                    <option value="Zacatecas">Zacatecas</option>
+                                                </select>                   
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="tel" class="form-control"  maxlength="10" name = "telefono" pattern="[0-9]{10}" id="telefono" placeholder="TELÉFONO A 10 DÍGITOS">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" name = "email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" id="email" placeholder="EMAIL">
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="form-group">
+                                                    <select id = "motivo" class="custom-select" name="motivo" onchange="cambiarOpciones()">
+                                                        <option value="motivo" disabled selected>MOTIVO</option>
+                                                        <option value="Cotizar">Cotizar</option>
+                                                        <option value="Soy cliente">Soy cliente</option>
+                                                        <option value="Quiero trabajar">Quiero trabajar</option>
+                                                        <option value="Comentarios y sugerencias">Comentarios y sugerencias</option>
+                                                        <option value="Prensa y comunicacion"> Prensa y comunicacion </option>
+                                                        <option value="Proveedores"> Proveedores </option>
+                                                    </select>
+                                                </div>                                        
+                                            </div>  
+                                            <div id = "seleccion" class="form-group">   </div> 
+                                            
+                                            <div id = "seleccion2" class="form-group">  </div>
+                                                                            
+                                            <input  name = "enviar" type = "submit" class="btn btn-4p" value="Enviar" id = "Enviar">
+                                            
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    
+                        <div id = "respuesta" style = "display:none;"></div>
+                    </div>
+                </div>
+            </div>
+        <!--*******************************************FinFormulario**********************************************-->
+            <!--*******************************************Contacto***********************************************-->
+            <div id="contacto" class = "contacto">
+                <div class="gray-page h-100 row align-items-center justify-content-center mx-0 text-center">
+                        <div class = "h-100  d-flex align-items-center justify-content-center" style = "z-index: 0; position: absolute;">
+
+                                <img  style = "margin-right: 10%; margin-left: 10%; z-index: 0; width: 100%;" src="../4p/images/contacto-back.png" />
+        
+                        </div>
+                    
+                    <div id = "direccion" class="col-xl-6" style="width:100%;  height:auto;">
+                       <strong> <span class="titulo2-4p">
+                            CORPORATIVO 4P/MX                          
+                        </span></strong>
+                        <p class = "texto2-4p mt-4">
+                            Sierra Gorda 36 Piso 1<br>
+                            Lomas de Chapultepec <br>
+                            C.P. 11000 Ciudad de México <br>
+                            Tel. (55) 33000301                            
+                        </p>
+                        
+                        <div class = "row">
+                            <div class = "col-lg-4 texto-mapas text-right" style="cursor: pointer;">
+                                <p  onclick = "mostrarMapaCorporativo(),mostrarDireccionCorporativo()">Corporativo</p>
+                            </div>
+                            <div class = "col-lg-4 texto-mapas text-center"  >
+                                <p  onclick = "mostrarMapaNorte(),mostrarDireccionNorte()" style="cursor: pointer;" >Norte</p>
+                            </div>
+                            <div class = "col-lg-4 texto-mapas text-left" style="cursor: pointer;">
+                                <p onclick = "mostrarMapaPeninsula(),mostrarDireccionPeninsula()">Península</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div id = "mapaFrame" class=" col-sm-6 col-md-6 col-lg-6 col-xl-6 google-maps">
+                        
+                        <iframe class = "mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d559.3234635760344!2d-99.22231590482778!3d19.426885317785107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x115a7b305b3dbd0b%3A0xb80ca8f34694465c!2sCorporativo+4P%2FMX!5e0!3m2!1ses!2smx!4v1530553337865" frameborder="0" style="border:0; border-radius: 8px;"  frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                    </div>
+                </div>                
+            </div>   
+        <!--************************************************FinContacto********************************************-->   
+        
+            <!--************************************Footer*******************************************************-->
+            <footer class="footer-distributed blue-page" style="margin-bottom: 30px; ">
+
+                    <div class="footer-right">
+        
+                        <a href="https://www.facebook.com/Somos4PMX/"><img   src="images/social/facebookW.png" class="img-fluid" width="100%" ></a>
+                        <a href="https://mx.linkedin.com/company/4p-mx"><img src="images/social/linkedinW.png" class="img-fluid" width="100%" ></a>
+                        <a href="#"><img  src="images/amasfac.png" width="100%"  ></a>
+                        <a href="#"><img  src="images/gptwLogo.png" width="100%" ></a>
+        
+                    </div>
+        
+                    <div class="footer-left">
+        
+                        <p class="footer-links">
+                                <a href="#"><img  src="images/4pmx.png" width="28%" style="margin-top: 5%;" ></a>
+                        </p>
+
+                        <a href="http://www.4p.com.mx/privacidad/" class = "text-center"  style = "color:white;" id="imgfootercuatrop"> 
+                            <p>Aviso de privacidad</p>
+                        </a>
+                       
+                    </div>
+
+                    <div class="footer-center">
+            
+                            
+                    </div>
+        
+            </footer>
+            
+            <!--*************************************EndFooter*******************************************************-->
+        </section>
+
+        <script type="text/javascript" src="js/scripts.js"></script>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://unpkg.com/tippy.js@2.5.2/dist/tippy.all.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f" crossorigin="anonymous"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+            
+        <script>
+            $(function() {
+                $("#menu ul li a").click(function() {
+                // quitar .seleccionado a todos (por si hay alguno)
+                $("#menu ul li a").removeClass("seleccionado");
+                // agregar seleccionado a "este" elemento.
+                $(this).addClass("seleccionado");
+                });
+            });
+        </script>
+
+        <script type = "text/javascript">
+            tippy('.tool');
+        </script>
+
+
+        <script>
+            $(document).ready(function($){
+                
+                $(window).scroll(function() {
+                    
+
+                    if($(window).scrollTop() + $(window).height() == $(document).height()) {
+                        //alert("bottom!");
+                        //alert($(document).height()-200);
+                        subrayar("contacto_a");
+                    }else if($(window).scrollTop() + $(window).height() <= 1000){
+                        
+                        subrayar("inicio_a");
+                    }else if($(window).scrollTop() + $(window).height() >= 1001 && $(window).scrollTop() + $(window).height() <= 4000){
+                        
+                        subrayar("nosotros_a");
+                    }else if( $(window).scrollTop() + $(window).height() >= 4001 && $(window).scrollTop() + $(window).height() <= 4900){
+                        
+                        subrayar("contacto_a");
+                    }
+
+                });
+
+            });  
+        </script>
+        
+
+        <script>
+            $(document).ready(function($){
+            
+            var element = document.getElementById("imgfootercuatrop")
+            var ventana_ancho = $(window).width();
+            var ventana_alto = $(window).height();
+           
+            
+            if(ventana_ancho < 500){
+                element.classList.add("text-center");
+               
+            }
+
+             });  
+        </script>
+
+        <script>
+        $(document).ready(function($){
+        
+            var element = document.getElementById("imgfooteramasfac")
+            var ventana_ancho = $(window).width();
+            var ventana_alto = $(window).height();
+        
+            
+            if(ventana_ancho < 500){
+                element.classList.add("text-center");
+            
+            }
+
+            });  
+        </script>
+
+        <script>
+        $(document).ready(function($){
+        
+            var element = document.getElementById("imgfootergptw")
+            var ventana_ancho = $(window).width();
+            var ventana_alto = $(window).height();
+        
+            
+            if(ventana_ancho < 500){
+                element.classList.add("text-center");
+            
+            }
+
+            });  
+        </script>
+
+        <script>
+        $(document).ready(function($){
+        
+            var element = document.getElementById("imgfooterfacebook")
+            var ventana_ancho = $(window).width();
+            var ventana_alto = $(window).height();
+        
+            
+            if(ventana_ancho < 500){
+                element.classList.add("text-center");
+            
+            }
+
+            });  
+        </script>
+
+        <script>
+        $(document).ready(function($){
+        
+            var element = document.getElementById("imgfooterlinked")
+            var ventana_ancho = $(window).width();
+            var ventana_alto = $(window).height();
+        
+            
+            if(ventana_ancho < 500){
+                element.classList.add("text-center");
+            
+            }
+
+            });  
+        </script>
+
+        <script>
+
+            function subrayar(id){
+
+                if(id=="inicio_a"){
+
+                $("#inicio_a").css("border-bottom", "solid");
+                $("#inicio_a").css("border-bottom-color", "#1c4387");
+                $("#inicio_a").css("padding-bottom", "5px");
+
+                $("#nosotros_a").css("border-bottom", "solid");
+                $("#nosotros_a").css("border-bottom-color", "#f8f9fa");
+                $("#nosotros_a").css("padding-bottom", "5px");
+
+                $("#contacto_a").css("border-bottom", "solid");
+                $("#contacto_a").css("border-bottom-color", "#f8f9fa");
+                $("#contacto_a").css("padding-bottom", "5px");
+
+                }else if(id=="nosotros_a"){
+
+                $("#inicio_a").css("border-bottom", "solid");
+                $("#inicio_a").css("border-bottom-color", "#f8f9fa");
+                $("#inicio_a").css("padding-bottom", "5px");
+
+                $("#nosotros_a").css("border-bottom", "solid");
+                $("#nosotros_a").css("border-bottom-color", "#1c4387");
+                $("#nosotros_a").css("padding-bottom", "5px");
+
+                $("#contacto_a").css("border-bottom", "solid");
+                $("#contacto_a").css("border-bottom-color", "#f8f9fa");
+                $("#contacto_a").css("padding-bottom", "5px");
+
+                }else{
+                
+                $("#inicio_a").css("border-bottom", "solid");
+                $("#inicio_a").css("border-bottom-color", "#f8f9fa");
+                $("#inicio_a").css("padding-bottom", "5px");
+
+                $("#nosotros_a").css("border-bottom", "solid");
+                $("#nosotros_a").css("border-bottom-color", "#f8f9fa");
+                $("#nosotros_a").css("padding-bottom", "5px");
+
+                $("#contacto_a").css("border-bottom", "solid");
+                $("#contacto_a").css("border-bottom-color", "#1c4387");
+                $("#contacto_a").css("padding-bottom", "5px");
+
+                }
+            }
+        </script>
+        
+        <script>
+            $(document).ready(function($){
+            
+            var element = document.getElementById("spanEmpresasIzq")
+            var ventana_ancho = $(window).width();
+            var ventana_alto = $(window).height();
+           
+            
+            if(ventana_ancho < 1200){
+                element.classList.remove("text-left");
+               
+            }
+
+             });  
+        </script>
+
+        <script>
+            $(document).ready(function($){
+            
+            var element = document.getElementById("spanEmpresasDer")
+            var ventana_ancho = $(window).width();
+            var ventana_alto = $(window).height();
+            
+            
+            if(ventana_ancho < 1200){
+                element.classList.remove("text-right");
+               
+            }
+
+            });  
+        </script>
+
+        <script>
+            $(document).ready(function($){
+
+                var element = document.getElementById("modalpagina")
+                var ventana_ancho = $(window).width();
+                var ventana_alto = $(window).height();
+
+                if(ventana_ancho < 600){
+                    element.classList.remove("text-right");
+                    element.classList.add("text-center");
+                   
+                }
+
+            });
+        </script>
+        
+        <script>
+                $(document).ready(function($){
+    
+                    var element = document.getElementById("botoncerrarmodal")
+                    var ventana_ancho = $(window).width();
+                    var ventana_alto = $(window).height();
+    
+                    if(ventana_ancho < 600){
+                        element.classList.remove("text-right");
+                        element.classList.add("text-left");
+                       
+                    }
+    
+                });
+        </script>  
+        
+        <script>
+                $(document).ready(function($){
+    
+                    var element = document.getElementById("botonsitiointegra")
+                    var ventana_ancho = $(window).width();
+                    var ventana_alto = $(window).height();
+    
+                    if(ventana_ancho < 600){
+                        element.classList.remove("text-right");
+                        element.classList.add("text-left");
+                       
+                    }
+    
+                });
+        </script>
+
+        <script>
+                $(document).ready(function($){
+
+                    var element = document.getElementById("botonsitioss")
+                    var ventana_ancho = $(window).width();
+                    var ventana_alto = $(window).height();
+
+                    if(ventana_ancho < 600){
+                        element.classList.remove("text-right");
+                        element.classList.add("text-left");
+                    
+                    }
+
+                });
+        </script>
+
+        <script>
+                $(document).ready(function($){
+
+                    var element = document.getElementById("botonsitioblu")
+                    var ventana_ancho = $(window).width();
+                    var ventana_alto = $(window).height();
+
+                    if(ventana_ancho < 600){
+                        element.classList.remove("text-right");
+                        element.classList.add("text-left");
+                    
+                    }
+
+                });
+        </script>
+
+        <script type="text/javascript">
+            $('.navbar-nav>li>a').on('click', function(){
+                $('.navbar-collapse').collapse('hide');
+            });
+
+
+            $('.navbar-nav>a').on('click', function(){
+                $('.navbar-collapse').collapse('hide');
+            });
+        </script>
+        
+        
+        <script>
+            // Get the modal
+            var modal = document.getElementById('myModal');
+            
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            
+                var img = document.getElementById('irl');
+                var modalImg = document.getElementById("irl");
+                var captionText = document.getElementById("caption");
+               
+                img.onclick = function(){
+                    $('html,body').css('overflow', 'hidden');
+                    
+                    modal.style.display = "block";
+                    modalImg.src = this.src;
+                    captionText.innerHTML = this.alt;
+                }
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("modal")[0];
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function() { 
+                    modal.style.display = "none";
+                    $('html,body').css('overflow', 'scroll');
+                    
+                }
+        </script>
+
+       <script>
+            // Get the modal
+            var modalIntegra = document.getElementById('myModalIntegra');
+            
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+                var imgIntegra = document.getElementById('integra');
+                var modalImgIntegra = document.getElementById("integra");
+                var captionTextIntegra = document.getElementById("captions");
+                imgIntegra.onclick = function(){
+                    $('html,body').css('overflow', 'hidden');
+                    modalIntegra.style.display = "block";
+                    modalImgIntegra.src = this.src;
+                    captionTextIntegra.innerHTML = this.alt;
+                }
+
+                // Get the <span> element that closes the modal
+                var spanIntegra = document.getElementsByClassName("modalIntegra")[0];
+
+                // When the user clicks on <span> (x), close the modal
+                spanIntegra.onclick = function() { 
+                    modalIntegra.style.display = "none";
+                    $('html,body').css('overflow', 'scroll');
+                }
+        </script>
+        
+        
+        <script>
+            // Get the modal
+            var modalSS = document.getElementById('myModalSS');
+            
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+                var imgSS = document.getElementById('ss');
+                var modalImgSS = document.getElementById("ss");
+                var captionTextSS = document.getElementById("captions");
+                imgSS.onclick = function(){
+                    $('html,body').css('overflow', 'hidden');
+                    
+                    modalSS.style.display = "block";
+                    modalImgSS.src = this.src;
+                    captionTextSS.innerHTML = this.alt;
+                }
+
+                // Get the <span> element that closes the modal
+                var spanSS = document.getElementsByClassName("modalss")[0];
+
+                // When the user clicks on <span> (x), close the modal
+                spanSS.onclick = function() { 
+                    modalSS.style.display = "none";
+                    $('html,body').css('overflow', 'scroll');
+                }
+        </script>
+        
+        <script>
+            // Get the modal
+            var modalBlu = document.getElementById('myModalBlu');
+            
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+                var imgBlu = document.getElementById('ba');
+                var modalImgBlu = document.getElementById("ba");
+                var captionTextBlu = document.getElementById("captions");
+                imgBlu.onclick = function(){
+                    $('html,body').css('overflow', 'hidden');
+                    modalBlu.style.display = "block";
+                    modalImgBlu.src = this.src;
+                    captionTextBlu.innerHTML = this.alt;
+                }
+
+                // Get the <span> element that closes the modal
+                var spanBlu = document.getElementsByClassName("modalblu")[0];
+
+                // When the user clicks on <span> (x), close the modal
+                spanBlu.onclick = function() { 
+                    modalBlu.style.display = "none";
+                    $('html,body').css('overflow', 'scroll');
+                }
+        </script>
+        
+        <script type="text/javascript">
+            // Get the modal
+            var modalMapCorpo = document.getElementById('mapModal');
+            
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+                var imgCorp = document.getElementById('marcadorCorpo');
+                var modalImgCorpo = document.getElementById("imgCorpo");
+                
+                imgCorp.onclick = function(){
+                    
+                    
+                    modalMapCorpo.style.display = "block";
+                    modalImgCorpo.src = this.src;
+                    
+                }
+
+                // Get the <span> element that closes the modal
+                var spanMap = document.getElementsByClassName("closeCorpo")[0];
+
+                // When the user clicks on <span> (x), close the modal
+                spanMap.onclick = function() { 
+                    modalMapCorpo.style.display = "none";
+                   
+                }
+        </script>
+        
+        <script type="text/javascript">
+            // Get the modal
+            var modalMapNorte = document.getElementById('modalNorte');
+            
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+                var imgNorte = document.getElementById('marcadorNorte');
+                var modalImgNorte = document.getElementById("mapaNorte");
+                
+                imgNorte.onclick = function(){
+                    
+                    
+                    modalMapNorte.style.display = "block";
+                    modalImgNorte.src = this.src;
+                    
+                }
+
+                // Get the <span> element that closes the modal
+                var spanMap = document.getElementsByClassName("modal")[0];
+
+                // When the user clicks on <span> (x), close the modal
+                spanMap.onclick = function() {
+                    modalMapNorte.style.display = "none";
+
+                }
+                
+                
+                </script>
+        
+        
+        <script type="text/javascript">
+            // Get the modal
+            var modalMapPeninsula = document.getElementById('modalPeninsula');
+            
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+                var imgPeninsula = document.getElementById('marcadorPeninsula');
+                var modalImgPeninsula = document.getElementById("mapaPeninsula");
+                
+                imgPeninsula.onclick = function(){
+                    
+                    
+                    modalMapPeninsula.style.display = "block";
+                    modalImgPeninsula.src = this.src;
+                    
+                }
+
+                // Get the <span> element that closes the modal
+                var spanMap = document.getElementsByClassName("modal")[0];
+
+                // When the user clicks on <span> (x), close the modal
+                spanMap.onclick = function() { 
+                    modalMapPeninsula.style.display = "none";
+                }
+        </script>
+
+       
+       <script>
+            function myFunction(x) {
+                if (x.matches) { // If media query matches
+                    
+                    document.getElementsByClassName("toolIRL")[0].setAttribute('title', 'Bróker de seguros especializado en sector corporativo'); 
+                    document.getElementsByClassName("toolIntegra")[0].setAttribute('title', 'Bróker de seguros especializados en líneas individuales y Pymes'); 
+                    document.getElementsByClassName("toolSS")[0].setAttribute('title', 'Seguros masivos y afinidad'); 
+                    document.getElementsByClassName("toolBA")[0].setAttribute('title', 'Empresa de asistencia'); 
+                   
+                } else {
+                   
+                }
+            }
+            var x = window.matchMedia("(min-width: 700px)")
+            myFunction(x)
+            x.addListner(myFunction)
+        </script>
+
+    </body>
+</html>

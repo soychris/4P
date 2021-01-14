@@ -1,0 +1,28 @@
+<button type="submit" class="btn btn-4p mb-3">ENVIAR</button></div>
+
+
+
+
+
+
+ <div class="col-xl-6">
+
+                        <div class="row h-100">
+                            <div class="col-xl-8 offset-xl-2">
+                                <form method = "POST" name = "fcontacto" id = "fcontacto" action="./">
+                                    <div class="form-group mt-3">
+                                        <input type="text" class="form-control" id="nombre" placeholder="NOMBRE">
+                                    </div>
+                                    
+                                                                                                       
+                                    <div class="text-right">
+                                        <input type = "submit" class = "btn btn-info" value = "Enviar">
+                                    </div>
+                                    
+                                    <div id = "respuesta" style = "display : none;"></div>
+                                    
+                                </form>
+                                
+                            </div>                            
+                        </div>                        
+                    </div>
